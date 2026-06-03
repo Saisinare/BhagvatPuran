@@ -1,0 +1,6 @@
+{
+  "source": "JDhruv14/Bhagavad-Gita_Dataset",
+  "ingested_at": "2025-10-09T00:00:00Z",
+  "script": "backend/scripts/ingest_hf_gita.py",
+  "notes": "Fields: id, chapter, verse, sanskrit, transliteration, english, hindi"
+}

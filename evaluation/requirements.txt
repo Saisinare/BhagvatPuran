@@ -1,0 +1,17 @@
+# Additional dependencies for RAGita evaluation module
+# Add these to your main requirements.txt or install separately
+
+# Core evaluation dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Semantic similarity (optional but recommended for BERTScore and semantic metrics)
+sentence-transformers>=2.0.0
+torch>=1.9.0
+transformers>=4.20.0
+
+# For full BERTScore implementation (optional)
+# bert-score>=0.3.13
+
+# Note: If you don't install sentence-transformers, the evaluation will still work
+# but will fall back to simpler word-overlap metrics for semantic evaluation.

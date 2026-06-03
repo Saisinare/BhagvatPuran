@@ -1,0 +1,215 @@
+{
+  "evaluation_summary": {
+    "demo_evaluation": true,
+    "total_queries": 3
+  },
+  "individual_results": [
+    {
+      "query": "What is the Bhagavad Gita about?",
+      "persona": "versatile",
+      "response_time": 5.930667161941528,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 2.658069133758545,
+      "citation_coverage": 1.0,
+      "total_claims": 1,
+      "supported_claims": 1,
+      "bleu_score": 0.0,
+      "rouge_l": 0.1951219512195122,
+      "bert_precision": 0.7428795099258423,
+      "bert_recall": 0.522599458694458,
+      "bert_f1": 0.6135675311088562,
+      "semantic_similarity": 0.788934588432312,
+      "contextual_relevance": 0.7973800897598267,
+      "factual_consistency": 0.4915754497051239,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.5526897112528484,
+      "overall_score": 0.7763448556264242,
+      "generated_answer": "The Bhagavad Gītā is a divine discourse revealing secret knowledge about the material field (kṣetra) and its knower (kṣetrajña), and the dual Nirguṇa‑Saguṇa aspects of the Divine, presented as a sovereign science that requires an untarnished intellect for realization.",
+      "retrieved_docs": [
+        "13:2",
+        "9:1",
+        "13:5",
+        "18:51",
+        "9:2"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Bhagavad Gītā is a divine discourse revealing secret knowledge about the material field (kṣetra) and its knower (kṣetrajña), and the dual Nirguṇa‑Saguṇa aspects of the Divine, presented as a sovereign science that requires an untarnished intellect for realization",
+          "support_score": 2.658069133758545,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "9:1",
+          "best_passage_preview": "Shree Bhagavan said: To you, who are devoid of the carping spirit, I shall now unfold the most secret knowledge of Nirgu"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "9:1",
+          "passage_preview": "To you, who are devoid of the carping spirit, I shall now unfold the most secret knowledge of Nirgu..."
+        },
+        {
+          "verse": "13:2",
+          "passage_preview": "This body, Arjuna, is termed as the Field; and him who knows it, the sages discerning the truth about..."
+        },
+        {
+          "verse": "13:5",
+          "passage_preview": "The truth about the Ksetra and the Ksetrajña has been expounded by the seers in manifold ways..."
+        },
+        {
+          "verse": "9:2",
+          "passage_preview": "This knowledge of both the Nirguna and Saguna aspects of Divinity is a sovereign science, a sovereign secret, supremely..."
+        }
+      ]
+    },
+    {
+      "query": "How can I find peace in difficult times?",
+      "persona": "versatile",
+      "response_time": 5.748000621795654,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 2.2668110132217407,
+      "citation_coverage": 1.0,
+      "total_claims": 2,
+      "supported_claims": 2,
+      "contextual_relevance": 0.543498158454895,
+      "factual_consistency": 0.5129384994506836,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.4222703377405803,
+      "overall_score": 0.7111351688702902,
+      "generated_answer": "The Bhagavad‑Gita teaches that peace arises from letting go of desire, cultivating a disciplined mind focused on the divine, maintaining equanimity, purifying the heart of passion, fear and anger, and recognizing that external success cannot remove inner sorrow. By practicing detachment, daily meditation, non‑reactive observation, wisdom study, and shifting focus from material gain to inner transformation, one can find lasting peace even in difficult times.",
+      "retrieved_docs": [
+        "2:71",
+        "6:15",
+        "2:8",
+        "4:10",
+        "2:57"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Bhagavad‑Gita teaches that peace arises from letting go of desire, cultivating a disciplined mind focused on the divine, maintaining equanimity, purifying the heart of passion, fear and anger, and recognizing that external success cannot remove inner sorrow",
+          "support_score": 3.2320380210876465,
+          "supported": true,
+          "best_passage_idx": 2,
+          "best_passage_verse": "2:8",
+          "best_passage_preview": "For I do not see that which can remove the sorrow of my senses, even after gaining the kingdom on this earth, the wealth"
+        },
+        {
+          "claim": "By practicing detachment, daily meditation, non‑reactive observation, wisdom study, and shifting focus from material gain to inner transformation, one can find lasting peace even in difficult times",
+          "support_score": 1.301584005355835,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "6:15",
+          "best_passage_preview": "Thus constantly applying his mind to Me, the Yogi of disciplined mind attains the everlasting peace, consisting of supre"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "2:71",
+          "passage_preview": "He who has given up all desires, and moves free from attachment, egoism and thirst for enjoyment attains peace."
+        },
+        {
+          "verse": "6:15",
+          "passage_preview": "Thus constantly applying his mind to Me, the Yogi of disciplined mind attains the everlasting peace, consisting of supre"
+        },
+        {
+          "verse": "2:57",
+          "passage_preview": "He who is unattached to everything, and meeting with good and evil, neither rejoices nor recoils, his mind is stable."
+        },
+        {
+          "verse": "4:10",
+          "passage_preview": "Completely rid of passion, fear and anger, wholly absorbed in me, depending on me, and purified by the penance of wisdom"
+        },
+        {
+          "verse": "2:8",
+          "passage_preview": "For I do not see that which can remove the sorrow of my senses, even after gaining the kingdom on this earth, the wealth"
+        }
+      ]
+    },
+    {
+      "query": "What does Krishna say about duty?",
+      "persona": "versatile",
+      "response_time": 4.645000457763672,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.3306972980499268,
+      "citation_coverage": 1.0,
+      "total_claims": 3,
+      "supported_claims": 3,
+      "contextual_relevance": 0.7345865964889526,
+      "factual_consistency": 0.5110446115334829,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.7768990993499756,
+      "overall_score": 0.8884495496749878,
+      "generated_answer": "Krishna teaches that duty must be performed without attachment to results, guided by discerning intellect, and that action is preferable to inaction. One should faithfully fulfill one's own prescribed duty, however modest, rather than abandon it or imitate another's role, as neglect leads to darkness. These teachings are supported by verses 6:1, 18:31, 3:8, 18:47, and 18:7, which together outline a comprehensive view of dharma as essential for personal and cosmic harmony.",
+      "retrieved_docs": [
+        "6:1",
+        "18:31",
+        "3:8",
+        "18:47",
+        "18:7"
+      ],
+      "verification_details": [
+        {
+          "claim": "Krishna teaches that duty must be performed without attachment to results, guided by discerning intellect, and that action is preferable to inaction",
+          "support_score": 2.9937102794647217,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "18:7",
+          "best_passage_preview": "But it is not advisable to abandon a prescribed duty. Its abandonment through ignorance has been declared as Tamasika."
+        },
+        {
+          "claim": "One should faithfully fulfill one's own prescribed duty, however modest, rather than abandon it or imitate another's role, as neglect leads to darkness",
+          "support_score": 3.0605578422546387,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "18:7",
+          "best_passage_preview": "But it is not advisable to abandon a prescribed duty. Its abandonment through ignorance has been declared as Tamasika."
+        },
+        {
+          "claim": "These teachings are supported by verses 6:1, 18:31, 3:8, 18:47, and 18:7, which together outline a comprehensive view of dharma as essential for personal and cosmic harmony",
+          "support_score": 3.93782377243042,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "18:7",
+          "best_passage_preview": "But it is not advisable to abandon a prescribed duty. Its abandonment through ignorance has been declared as Tamasika."
+        }
+      ],
+      "citations": [
+        {
+          "verse": "6:1",
+          "passage_preview": "he who does his duty without expecting the fruit of actions is a Samnyasi and a Yogiboth"
+        },
+        {
+          "verse": "18:31",
+          "passage_preview": "By which a person knows what is duty and what is not duty, what is action and what is inaction, that intellect, O Partha"
+        },
+        {
+          "verse": "3:8",
+          "passage_preview": "Therefore, do you perform your allotted duty, because action is indeed better than inaction"
+        },
+        {
+          "verse": "18:47",
+          "passage_preview": "Better is one’s own duty, though devoid of merit, than the duty of another well‑performed"
+        },
+        {
+          "verse": "18:7",
+          "passage_preview": "But it is not advisable to abandon a prescribed duty. Its abandonment through ignorance has been declared as Tamasika"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3838 @@
+{
+  "evaluation_summary": {
+    "total_queries": 30,
+    "successful_evaluations": 30,
+    "failed_evaluations": 0,
+    "persona_used": "versatile",
+    "evaluation_time": "2025-10-12T21:57:18.780446"
+  },
+  "aggregated_metrics": {
+    "avg_recall@1": 0.030000000000000002,
+    "min_recall@1": 0.0,
+    "max_recall@1": 0.25,
+    "avg_recall@3": 0.06666666666666667,
+    "min_recall@3": 0.0,
+    "max_recall@3": 0.6,
+    "avg_recall@5": 0.10055555555555556,
+    "min_recall@5": 0.0,
+    "max_recall@5": 1.0,
+    "avg_precision@1": 0.13333333333333333,
+    "min_precision@1": 0.0,
+    "max_precision@1": 1.0,
+    "avg_precision@3": 0.10000000000000002,
+    "min_precision@3": 0.0,
+    "max_precision@3": 1.0,
+    "avg_precision@5": 0.09333333333333334,
+    "min_precision@5": 0.0,
+    "max_precision@5": 1.0,
+    "avg_mrr": 0.1761111111111111,
+    "min_mrr": 0.0,
+    "max_mrr": 1.0,
+    "avg_ndcg@1": 0.13333333333333333,
+    "min_ndcg@1": 0.0,
+    "max_ndcg@1": 1.0,
+    "avg_ndcg@3": 0.10782131210037928,
+    "min_ndcg@3": 0.0,
+    "max_ndcg@3": 1.0,
+    "avg_ndcg@5": 0.10735999824517646,
+    "min_ndcg@5": 0.0,
+    "max_ndcg@5": 1.0,
+    "avg_grounding_accuracy": 1.0,
+    "min_grounding_accuracy": 1.0,
+    "max_grounding_accuracy": 1.0,
+    "avg_unsupported_claim_rate": 0.0,
+    "min_unsupported_claim_rate": 0.0,
+    "max_unsupported_claim_rate": 0.0,
+    "avg_mean_support_score": 3.3651356850316123,
+    "min_mean_support_score": 2.1756345629692078,
+    "max_mean_support_score": 4.379748106002808,
+    "avg_citation_coverage": 0.9588235294117647,
+    "min_citation_coverage": 0.09803921568627451,
+    "max_citation_coverage": 1.0,
+    "avg_total_claims": 4.733333333333333,
+    "min_total_claims": 1,
+    "max_total_claims": 64,
+    "avg_supported_claims": 4.733333333333333,
+    "min_supported_claims": 1,
+    "max_supported_claims": 64,
+    "avg_bleu_score": 0.003950680715501389,
+    "min_bleu_score": 0.0,
+    "max_bleu_score": 0.04578514430969215,
+    "avg_rouge_l": 0.12331457222326665,
+    "min_rouge_l": 0.013671874999999998,
+    "max_rouge_l": 0.2181818181818182,
+    "avg_bert_precision": 0.4926489949226379,
+    "min_bert_precision": 0.1295013427734375,
+    "max_bert_precision": 0.6650793552398682,
+    "avg_bert_recall": 0.5749158571163814,
+    "min_bert_recall": 0.1295013427734375,
+    "max_bert_recall": 0.7754586338996887,
+    "avg_bert_f1": 0.528026619553566,
+    "min_bert_f1": 0.1295013427734375,
+    "max_bert_f1": 0.700167179107666,
+    "avg_semantic_similarity": 0.5709474161267281,
+    "min_semantic_similarity": 0.105522021651268,
+    "max_semantic_similarity": 0.724113404750824,
+    "avg_contextual_relevance": 0.63852718770504,
+    "min_contextual_relevance": 0.252815842628479,
+    "max_contextual_relevance": 0.8621987104415894,
+    "avg_factual_consistency": 0.5110920919312371,
+    "min_factual_consistency": 0.23117161790529886,
+    "max_factual_consistency": 0.6635991334915161,
+    "avg_ragita_score": 0.6402222222222222,
+    "min_ragita_score": 0.6,
+    "max_ragita_score": 1.0,
+    "avg_retrieval_f1": 0.09643097643097646,
+    "min_retrieval_f1": 0.0,
+    "max_retrieval_f1": 1.0,
+    "avg_grounding_quality": 1.774653071481126,
+    "min_grounding_quality": 1.3918781876564026,
+    "max_grounding_quality": 2.126582702000936,
+    "avg_overall_score": 0.9355420239560511,
+    "min_overall_score": 0.6959390938282013,
+    "max_overall_score": 1.4707053005695343,
+    "overall_ragita_score": 0.6402222222222222
+  },
+  "individual_results": [
+    {
+      "query": "What is the Bhagavad Gita about? How many verses are there?",
+      "persona": "versatile",
+      "response_time": 8.826403141021729,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.5158650875091553,
+      "citation_coverage": 1.0,
+      "total_claims": 1,
+      "supported_claims": 1,
+      "bleu_score": 0.0,
+      "rouge_l": 0.06896551724137931,
+      "bert_precision": 0.1295013427734375,
+      "bert_recall": 0.1295013427734375,
+      "bert_f1": 0.1295013427734375,
+      "semantic_similarity": 0.105522021651268,
+      "contextual_relevance": 0.252815842628479,
+      "factual_consistency": 0.23117161790529886,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.838621695836385,
+      "overall_score": 0.9193108479181925,
+      "generated_answer": "I cannot find evidence in the provided passages.",
+      "retrieved_docs": [
+        "13:2",
+        "9:1",
+        "11:22",
+        "8:17",
+        "13:5"
+      ],
+      "verification_details": [
+        {
+          "claim": "I cannot find evidence in the provided passages",
+          "support_score": 3.5158650875091553,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "13:5",
+          "best_passage_preview": "The truth about the Ksetra and the Ksetrajña has been expounded by the seers in manifold ways; again, it has been separa"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "13:2",
+          "passage_preview": "Sri Bhagavan said: This body, Arjuna, is termed as the Field; and him who knows it, the sages discerning the truth about"
+        },
+        {
+          "verse": "9:1",
+          "passage_preview": "Shree Bhagavan said: To you, who are devoid of the carping spirit, I shall now unfold the most secret knowledge of Nirgu"
+        },
+        {
+          "verse": "11:22",
+          "passage_preview": "The eleven Rudras, the twelve Adityas, the eight Vasus, the Sadhyas, the Visvedevas, the Ashvins, the Maruts, the ancest"
+        },
+        {
+          "verse": "8:17",
+          "passage_preview": "Those Yogis who know from realization Brahma’s day as covering a thousand Mahayugas, and his night as ending in a thousa"
+        },
+        {
+          "verse": "13:5",
+          "passage_preview": "The truth about the Ksetra and the Ksetrajña has been expounded by the seers in manifold ways; again, it has been separa"
+        }
+      ]
+    },
+    {
+      "query": "Who are the main characters in the Bhagavad Gita?",
+      "persona": "versatile",
+      "response_time": 8.03157639503479,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.2543528079986572,
+      "citation_coverage": 1.0,
+      "total_claims": 2,
+      "supported_claims": 2,
+      "bleu_score": 0.0,
+      "rouge_l": 0.13186813186813184,
+      "bert_precision": 0.40408357977867126,
+      "bert_recall": 0.5104113817214966,
+      "bert_f1": 0.45106613636016846,
+      "semantic_similarity": 0.5492883920669556,
+      "contextual_relevance": 0.7592188715934753,
+      "factual_consistency": 0.5950756470362345,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.7514509359995525,
+      "overall_score": 0.8757254679997762,
+      "generated_answer": "The Bhagavad Gita’s opening chapter lists the principal warriors: Bhishma, Karna, Kripa, Asvatthama, Vikarna, Bhurisrava, Yudhamanyu, Uttamauja, Abhimanyu (son of Subhadra), the five sons of Draupadi, the sons of Drupada, the King of Kasi, Sikhandi the Maharathi, and Duryodhana as the Kaurava leader. These characters form the core cast of the battlefield, representing senior counsel, youthful vigor, and martial expertise, and set the stage for the philosophical dialogue that follows.",
+      "retrieved_docs": [
+        "1:8",
+        "1:12",
+        "1:6",
+        "1:18",
+        "1:17"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Bhagavad Gita’s opening chapter lists the principal warriors: Bhishma, Karna, Kripa, Asvatthama, Vikarna, Bhurisrava, Yudhamanyu, Uttamauja, Abhimanyu (son of Subhadra), the five sons of Draupadi, the sons of Drupada, the King of Kasi, Sikhandi the Maharathi, and Duryodhana as the Kaurava leader",
+          "support_score": 2.760897159576416,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "1:12",
+          "best_passage_preview": "The grand old man of the Kaurava race, their glorious grand-uncle Bhishma, cheering up Duryodhana, roared terribly like "
+        },
+        {
+          "claim": "These characters form the core cast of the battlefield, representing senior counsel, youthful vigor, and martial expertise, and set the stage for the philosophical dialogue that follows",
+          "support_score": 3.7478084564208984,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "1:17",
+          "best_passage_preview": "And the excellent archer, the King of Kasi and Sikhandi the Maharathi,"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "1:8",
+          "passage_preview": "Yourself and Bhishma and Karna and Kripa, who is ever victorious in battle; and even so Asvatthama, Vikarna and Bhurisra"
+        },
+        {
+          "verse": "1:12",
+          "passage_preview": "The grand old man of the Kaurava race, their glorious grand-uncle Bhishma, cheering up Duryodhana, roared terribly like"
+        },
+        {
+          "verse": "1:6",
+          "passage_preview": "the best of men and mighty Yudhamanyu, and valiant Uttamauja, Abhimanyu, the son of Subhadra, and the five sons of Draup"
+        },
+        {
+          "verse": "1:18",
+          "passage_preview": "and the sons of Drupada and Draupadi, and the mighty-armed Subhadra's son Abhimanyu—all of them, O King, blew their resp"
+        },
+        {
+          "verse": "1:17",
+          "passage_preview": "And the excellent archer, the King of Kasi and Sikhandi the Maharathi,"
+        }
+      ]
+    },
+    {
+      "query": "What are the three gunas mentioned in the Gita?",
+      "persona": "versatile",
+      "response_time": 6.2080888748168945,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.1458672682444253,
+      "citation_coverage": 1.0,
+      "total_claims": 3,
+      "supported_claims": 3,
+      "bleu_score": 0.035139130112817954,
+      "rouge_l": 0.12,
+      "bert_precision": 0.5887916088104248,
+      "bert_recall": 0.5929768085479736,
+      "bert_f1": 0.5908768177032471,
+      "semantic_similarity": 0.6960267424583435,
+      "contextual_relevance": 0.6885027885437012,
+      "factual_consistency": 0.6635991334915161,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.7152890894148083,
+      "overall_score": 0.8576445447074041,
+      "generated_answer": "The Gita describes the three gunas as the fundamental modes of Prakṛti that shape perception, desire, and action. Passages show that the Purusha senses objects arising from the three gunas (13:22), that the Vedas deal with their evolutes—worldly enjoyments and means of attaining them (2:45), that they feed the material tree of existence (15:2), and that knowledge of the gunas is a key branch of spiritual wisdom (18:19). The specific names of the three gunas are not provided in the given excerpts.",
+      "retrieved_docs": [
+        "13:22",
+        "2:45",
+        "15:2",
+        "18:19",
+        "18:4"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Gita describes the three gunas as the fundamental modes of Prakṛti that shape perception, desire, and action",
+          "support_score": 3.7189226150512695,
+          "supported": true,
+          "best_passage_idx": 2,
+          "best_passage_verse": "15:2",
+          "best_passage_preview": "Fed by the three Gunas and having sense-objects for their tender leaves, the branches of the aforesaid treeextend both d"
+        },
+        {
+          "claim": "Passages show that the Purusha senses objects arising from the three gunas (13:22), that the Vedas deal with their evolutes—worldly enjoyments and means of attaining them (2:45), that they feed the material tree of existence (15:2), and that knowledge of the gunas is a key branch of spiritual wisdom (18:19)",
+          "support_score": 2.540921688079834,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "18:19",
+          "best_passage_preview": "In the branch of knowledge dealing with the Gunas or modes of Prakrti, knowledge and action as well as the doer have bee"
+        },
+        {
+          "claim": "The specific names of the three gunas are not provided in the given excerpts",
+          "support_score": 3.177757501602173,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "2:45",
+          "best_passage_preview": "Arjuna, the Vedas thus deal with evolutes of the three Gunas; viz., worldly enjoyments and the means of attaining such e"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "13:22",
+          "passage_preview": "Only the Purusha seated in Prakrti senses objects of the nature of the three Gunas evolved from Prakrti."
+        },
+        {
+          "verse": "2:45",
+          "passage_preview": "Arjuna, the Vedas thus deal with evolutes of the three Gunas; viz., worldly enjoyments and the means of attaining such e"
+        },
+        {
+          "verse": "15:2",
+          "passage_preview": "Fed by the three Gunas and having sense-objects for their tender leaves, the branches of the aforesaid treeextend both d"
+        },
+        {
+          "verse": "18:19",
+          "passage_preview": "In the branch of knowledge dealing with the Gunas or modes of Prakrti, knowledge and action as well as the doer have bee"
+        }
+      ]
+    },
+    {
+      "query": "What is the significance of the battlefield of Kurukshetra?",
+      "persona": "versatile",
+      "response_time": 7.554572343826294,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.501052220662435,
+      "citation_coverage": 1.0,
+      "total_claims": 3,
+      "supported_claims": 3,
+      "bleu_score": 0.0,
+      "rouge_l": 0.11851851851851854,
+      "bert_precision": 0.564235270023346,
+      "bert_recall": 0.7754586338996887,
+      "bert_f1": 0.6531956195831299,
+      "semantic_similarity": 0.719441831111908,
+      "contextual_relevance": 0.6631631255149841,
+      "factual_consistency": 0.4358539879322052,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.833684073554145,
+      "overall_score": 0.9168420367770725,
+      "generated_answer": "The Bhagavad‑Gītā presents the battlefield of Kurukshetra as a layered symbol: a literal arena of war that mirrors inner conflict, a concrete illustration of the philosophical concepts of kṣetra (field) and kṣetrajña (knower), and a pedagogical setting for mindful observation and ethical action. Passages highlight that the same desires for throne and pleasure bring the combatants together [1:33], that the truth of field and knower is expounded by the seers [13:5], and that the nature and evolutes of the field are examined [13:4]. Additional verses show Arjuna’s careful observation of the warriors [1:22] and enumerate their qualities [1:17], reinforcing the battlefield’s role as a mirror of inner struggle and a site for realizing detached yet engaged action.",
+      "retrieved_docs": [
+        "1:33",
+        "13:5",
+        "1:22",
+        "13:4",
+        "1:17"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Bhagavad‑Gītā presents the battlefield of Kurukshetra as a layered symbol: a literal arena of war that mirrors inner conflict, a concrete illustration of the philosophical concepts of kṣetra (field) and kṣetrajña (knower), and a pedagogical setting for mindful observation and ethical action",
+          "support_score": 3.7952122688293457,
+          "supported": true,
+          "best_passage_idx": 2,
+          "best_passage_verse": "1:22",
+          "best_passage_preview": "And keep it there till I have carefully observed these warriors drawn up for battle, and have seen with whom I have to e"
+        },
+        {
+          "claim": "Passages highlight that the same desires for throne and pleasure bring the combatants together [1:33], that the truth of field and knower is expounded by the seers [13:5], and that the nature and evolutes of the field are examined [13:4]",
+          "support_score": 3.3970727920532227,
+          "supported": true,
+          "best_passage_idx": 2,
+          "best_passage_verse": "1:22",
+          "best_passage_preview": "And keep it there till I have carefully observed these warriors drawn up for battle, and have seen with whom I have to e"
+        },
+        {
+          "claim": "Additional verses show Arjuna’s careful observation of the warriors [1:22] and enumerate their qualities [1:17], reinforcing the battlefield’s role as a mirror of inner struggle and a site for realizing detached yet engaged action",
+          "support_score": 3.3108716011047363,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "1:17",
+          "best_passage_preview": "And the excellent archer, the King of Kasi and Sikhandi the Maharathi,"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "1:33",
+          "passage_preview": "Those very persons for whose sake we covet the throne, luxuries and pleasures—are here arrayed on the battlefield, havin"
+        },
+        {
+          "verse": "13:5",
+          "passage_preview": "The truth about the Ksetra and the Ksetrajña has been expounded by the seers in manifold ways; again, it has been separa"
+        },
+        {
+          "verse": "13:4",
+          "passage_preview": "What that Ksetra is and what it is like; and also what are its evolutes, again, whence is what, and also finally who tha"
+        },
+        {
+          "verse": "1:22",
+          "passage_preview": "And keep it there till I have carefully observed these warriors drawn up for battle, and have seen with whom I have to e"
+        },
+        {
+          "verse": "1:17",
+          "passage_preview": "And the excellent archer, the King of Kasi and Sikhandi the Maharathi,"
+        }
+      ]
+    },
+    {
+      "query": "What is the nature of the soul according to Krishna?",
+      "persona": "versatile",
+      "response_time": 6.074453592300415,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 2.3633127212524414,
+      "citation_coverage": 1.0,
+      "total_claims": 3,
+      "supported_claims": 3,
+      "bleu_score": 0.0,
+      "rouge_l": 0.14634146341463414,
+      "bert_precision": 0.46390974521636963,
+      "bert_recall": 0.518530011177063,
+      "bert_f1": 0.4897015392780304,
+      "semantic_similarity": 0.5373368263244629,
+      "contextual_relevance": 0.7673038244247437,
+      "factual_consistency": 0.6451962192853292,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.4544375737508137,
+      "overall_score": 0.7272187868754069,
+      "generated_answer": "Krishna describes the soul as unmanifest, immutable, without beginning, and devoid of qualities, yet it is the supreme, imperishable witness and seer that gives true knowledge. It resides in the body, using the senses, mind, and intellect as its seat, which can also delude it. Liberation requires subduing passions, reflecting both non‑dual and qualified‑dual interpretations of its relationship to the Supreme.",
+      "retrieved_docs": [
+        "6:37",
+        "13:23",
+        "2:25",
+        "13:32",
+        "3:40"
+      ],
+      "verification_details": [
+        {
+          "claim": "Krishna describes the soul as unmanifest, immutable, without beginning, and devoid of qualities, yet it is the supreme, imperishable witness and seer that gives true knowledge",
+          "support_score": 1.8011689186096191,
+          "supported": true,
+          "best_passage_idx": 2,
+          "best_passage_verse": "2:25",
+          "best_passage_preview": "This soul is unmanifest; it is unthinkable; and it is spoken of as immutable. Therefore, knowing this as such, you shoul"
+        },
+        {
+          "claim": "It resides in the body, using the senses, mind, and intellect as its seat, which can also delude it",
+          "support_score": 3.0112576484680176,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "3:40",
+          "best_passage_preview": "The senses, mind and intellect are said to be its seat; these delude the embodied soul, covering the knowledge."
+        },
+        {
+          "claim": "Liberation requires subduing passions, reflecting both non‑dual and qualified‑dual interpretations of its relationship to the Supreme",
+          "support_score": 2.2775115966796875,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "13:23",
+          "best_passage_preview": "In this body, the soul is indeed the Supreme Soul. Being the witness, it is the seer; being the giver of true knowledge,"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "2:25",
+          "passage_preview": "This soul is unmanifest; it is unthinkable; and it is spoken of as immutable."
+        },
+        {
+          "verse": "13:32",
+          "passage_preview": "O Arjuna! Being without beginning and devoid of qualities, this imperishable Supreme Soul, though residing in the body,"
+        },
+        {
+          "verse": "13:23",
+          "passage_preview": "In this body, the soul is indeed the Supreme Soul. Being the witness, it is the seer; being the giver of true knowledge,"
+        },
+        {
+          "verse": "3:40",
+          "passage_preview": "The senses, mind and intellect are said to be its seat; these delude the embodied soul, covering the knowledge."
+        },
+        {
+          "verse": "6:37",
+          "passage_preview": "Arjuna said: Krishna, what becomes of the soul who, though endowed with faith, has not been able to subdue his passions,"
+        }
+      ]
+    },
+    {
+      "query": "What does Krishna teach about the nature of reality?",
+      "persona": "versatile",
+      "response_time": 8.312731266021729,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 2.9510712027549744,
+      "citation_coverage": 1.0,
+      "total_claims": 4,
+      "supported_claims": 4,
+      "bleu_score": 0.0,
+      "rouge_l": 0.0980392156862745,
+      "bert_precision": 0.4292972683906555,
+      "bert_recall": 0.6445114612579346,
+      "bert_f1": 0.5153375864028931,
+      "semantic_similarity": 0.6855024099349976,
+      "contextual_relevance": 0.800460159778595,
+      "factual_consistency": 0.501138319571813,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.6503570675849915,
+      "overall_score": 0.8251785337924957,
+      "generated_answer": "Krishna teaches that reality is divided into the unreal, which has no true existence, and the real, which is eternal and never ceases. The ultimate reality is the immutable Self (Ātman) and the divine consciousness that underlies all. True knowledge arises when one fixes the mind on self‑knowledge and perceives God as the object of that knowledge, dispelling the ignorance that makes the unreal appear real. This esoteric teaching, when grasped, leads to wisdom and liberation from the passions that bind the soul.",
+      "retrieved_docs": [
+        "6:37",
+        "15:20",
+        "2:16",
+        "18:32",
+        "13:12"
+      ],
+      "verification_details": [
+        {
+          "claim": "Krishna teaches that reality is divided into the unreal, which has no true existence, and the real, which is eternal and never ceases",
+          "support_score": 3.099524736404419,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "15:20",
+          "best_passage_preview": "Arjuna, this most esoteric teaching has thus been imparted by Me; grasping it in essence man becomes wise and his missio"
+        },
+        {
+          "claim": "The ultimate reality is the immutable Self (Ātman) and the divine consciousness that underlies all",
+          "support_score": 3.216521739959717,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "15:20",
+          "best_passage_preview": "Arjuna, this most esoteric teaching has thus been imparted by Me; grasping it in essence man becomes wise and his missio"
+        },
+        {
+          "claim": "True knowledge arises when one fixes the mind on self‑knowledge and perceives God as the object of that knowledge, dispelling the ignorance that makes the unreal appear real",
+          "support_score": 2.3575656414031982,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "15:20",
+          "best_passage_preview": "Arjuna, this most esoteric teaching has thus been imparted by Me; grasping it in essence man becomes wise and his missio"
+        },
+        {
+          "claim": "This esoteric teaching, when grasped, leads to wisdom and liberation from the passions that bind the soul",
+          "support_score": 3.1306726932525635,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "15:20",
+          "best_passage_preview": "Arjuna, this most esoteric teaching has thus been imparted by Me; grasping it in essence man becomes wise and his missio"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "2:16",
+          "passage_preview": "The unreal has no existence, and the real never ceases to be, the reality of both has thus been perceived by the seers"
+        },
+        {
+          "verse": "13:12",
+          "passage_preview": "Fixity in self‑knowledge and seeing God as the object of true knowledge, all this is declared as knowledge"
+        },
+        {
+          "verse": "18:32",
+          "passage_preview": "The intellect which imagines even Adharma to be Dharma, and sees all other things upside‑down—wrapped in ignorance"
+        },
+        {
+          "verse": "15:20",
+          "passage_preview": "Arjuna, this most esoteric teaching has thus been imparted by Me; grasping it in essence man becomes wise"
+        }
+      ]
+    },
+    {
+      "query": "What is the relationship between action and inaction?",
+      "persona": "versatile",
+      "response_time": 16.535399675369263,
+      "recall@1": 0.2,
+      "recall@3": 0.6,
+      "recall@5": 1.0,
+      "precision@1": 1.0,
+      "precision@3": 1.0,
+      "precision@5": 1.0,
+      "mrr": 1.0,
+      "ndcg@1": 1.0,
+      "ndcg@3": 1.0,
+      "ndcg@5": 1.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.824231803417206,
+      "citation_coverage": 1.0,
+      "total_claims": 4,
+      "supported_claims": 4,
+      "bleu_score": 0.0,
+      "rouge_l": 0.17142857142857143,
+      "bert_precision": 0.5252313017845154,
+      "bert_recall": 0.5983591079711914,
+      "bert_f1": 0.5594154596328735,
+      "semantic_similarity": 0.6431030631065369,
+      "contextual_relevance": 0.6029940247535706,
+      "factual_consistency": 0.5602109829584757,
+      "ragita_score": 1.0,
+      "retrieval_f1": 1.0,
+      "grounding_quality": 1.9414106011390686,
+      "overall_score": 1.4707053005695343,
+      "generated_answer": "The Gita presents action and inaction as interrelated concepts: action is necessary for duty and spiritual purification, while inaction refers to inner non‑attachment. Wisdom lies in perceiving inaction within action and vice‑versa, as expressed in verses 4:16‑4:18, 3:4, and 3:8. Different schools interpret this as karma‑yoga (selfless action), Advaita (inner stillness of the Self), or bhakti (offering all deeds to the Divine). The text urges performing one’s allotted duty (3:8) while recognizing that liberation comes through engaged action performed without attachment (3:4).",
+      "retrieved_docs": [
+        "4:18",
+        "4:16",
+        "4:17",
+        "3:8",
+        "3:4"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Gita presents action and inaction as interrelated concepts: action is necessary for duty and spiritual purification, while inaction refers to inner non‑attachment",
+          "support_score": 4.027260780334473,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "4:16",
+          "best_passage_preview": "What is action and what is inaction? Even men of intelligence are puzzled over this question. Therefore, I shall expound"
+        },
+        {
+          "claim": "Wisdom lies in perceiving inaction within action and vice‑versa, as expressed in verses 4:16‑4:18, 3:4, and 3:8",
+          "support_score": 4.210910320281982,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "4:18",
+          "best_passage_preview": "He who sees inaction in action, and action in inaction, is wise among men; he is a yogi, who has performed all action."
+        },
+        {
+          "claim": "Different schools interpret this as karma‑yoga (selfless action), Advaita (inner stillness of the Self), or bhakti (offering all deeds to the Divine)",
+          "support_score": 3.4448769092559814,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "3:8",
+          "best_passage_preview": "Therefore, do you perform your allotted duty, because action is indeed better than inaction; and even the maintenance of"
+        },
+        {
+          "claim": "The text urges performing one’s allotted duty (3:8) while recognizing that liberation comes through engaged action performed without attachment (3:4)",
+          "support_score": 3.6138792037963867,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "4:18",
+          "best_passage_preview": "He who sees inaction in action, and action in inaction, is wise among men; he is a yogi, who has performed all action."
+        }
+      ],
+      "citations": [
+        {
+          "verse": "4:16",
+          "passage_preview": "What is action and what is inaction? Even men of intelligence are puzzled over this question. Therefore, I shall expound"
+        },
+        {
+          "verse": "4:17",
+          "passage_preview": "The truth about action must be known and the truth of inaction also must be known; even so the truth about prohibited ac"
+        },
+        {
+          "verse": "4:18",
+          "passage_preview": "He who sees inaction in action, and action in inaction, is wise among men; he is a yogi, who has performed all action."
+        },
+        {
+          "verse": "3:8",
+          "passage_preview": "Therefore, do you perform your allotted duty, because action is indeed better than inaction; and even the maintenance of"
+        },
+        {
+          "verse": "3:4",
+          "passage_preview": "Man does not attain freedom from action without entering upon action; nor does he reach perfection merely by ceasing to ac"
+        }
+      ]
+    },
+    {
+      "query": "What is Maya according to the Bhagavad Gita?",
+      "persona": "versatile",
+      "response_time": 19.15250253677368,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.5090747674306235,
+      "citation_coverage": 0.6666666666666666,
+      "total_claims": 3,
+      "supported_claims": 3,
+      "bleu_score": 0.0,
+      "rouge_l": 0.16,
+      "bert_precision": 0.6650793552398682,
+      "bert_recall": 0.7391635179519653,
+      "bert_f1": 0.700167179107666,
+      "semantic_similarity": 0.724113404750824,
+      "contextual_relevance": 0.7083684206008911,
+      "factual_consistency": 0.552223136027654,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.725247144699097,
+      "overall_score": 0.8626235723495485,
+      "generated_answer": "Maya is described in the Bhagavad Gita as the power that carries away wisdom, leading to delusion and demoniac behavior.  Verse 7:15 states that those whose wisdom is taken by Maya become foolish and vile, indicating Maya’s role as a deluding force that obscures true knowledge.  The text also contrasts Maya with Tamas, another deluder, noting that Tamas binds those who see the body as the self, while Maya specifically removes wisdom, causing moral and spiritual decline [14:8].",
+      "retrieved_docs": [
+        "7:15",
+        "18:51",
+        "9:2",
+        "6:8",
+        "14:8"
+      ],
+      "verification_details": [
+        {
+          "claim": "Maya is described in the Bhagavad Gita as the power that carries away wisdom, leading to delusion and demoniac behavior",
+          "support_score": 3.9696178436279297,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "7:15",
+          "best_passage_preview": "Those whose wisdom has been carried away by Maya, and who have embraced the demoniac nature, such foolish and vile men o"
+        },
+        {
+          "claim": "Verse 7:15 states that those whose wisdom is taken by Maya become foolish and vile, indicating Maya’s role as a deluding force that obscures true knowledge",
+          "support_score": 2.4110963344573975,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "7:15",
+          "best_passage_preview": "Those whose wisdom has been carried away by Maya, and who have embraced the demoniac nature, such foolish and vile men o"
+        },
+        {
+          "claim": "The text also contrasts Maya with Tamas, another deluder, noting that Tamas binds those who see the body as the self, while Maya specifically removes wisdom, causing moral and spiritual decline [14:8]",
+          "support_score": 4.146510124206543,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "7:15",
+          "best_passage_preview": "Those whose wisdom has been carried away by Maya, and who have embraced the demoniac nature, such foolish and vile men o"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "7:15",
+          "passage_preview": "Those whose wisdom has been carried away by Maya, and who have embraced the demoniac nature, such foolish and vile men..."
+        },
+        {
+          "verse": "14:8",
+          "passage_preview": "And know, Tamas, the deluder of all those who look upon the body as their own self, as born of ignorance. It binds the ..."
+        }
+      ]
+    },
+    {
+      "query": "How can I control my thoughts and find inner peace?",
+      "persona": "versatile",
+      "response_time": 18.144794940948486,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.16666666666666666,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.2,
+      "mrr": 0.25,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.14606834984270645,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.2364296913146973,
+      "citation_coverage": 1.0,
+      "total_claims": 2,
+      "supported_claims": 2,
+      "bleu_score": 0.04578514430969215,
+      "rouge_l": 0.15789473684210525,
+      "bert_precision": 0.6497991681098938,
+      "bert_recall": 0.6641800403594971,
+      "bert_f1": 0.6569109559059143,
+      "semantic_similarity": 0.6721450686454773,
+      "contextual_relevance": 0.6527637243270874,
+      "factual_consistency": 0.5853120485941569,
+      "ragita_score": 0.6666666666666666,
+      "retrieval_f1": 0.1818181818181818,
+      "grounding_quality": 1.7454765637715657,
+      "overall_score": 0.9636473727948738,
+      "generated_answer": "The Bhagavad‑Gītā teaches that controlling thoughts and finding inner peace involves recognizing the mind's restlessness, renouncing desires, restraining the senses, constantly fixing the mind on the Divine, and using repeated Yoga practice. By applying these principles through daily quiet sitting, desire journaling, mantra repetition, and evening reflection, one can gradually bring the mind under control and attain everlasting peace.",
+      "retrieved_docs": [
+        "6:15",
+        "6:24",
+        "2:61",
+        "6:35",
+        "12:9"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Bhagavad‑Gītā teaches that controlling thoughts and finding inner peace involves recognizing the mind's restlessness, renouncing desires, restraining the senses, constantly fixing the mind on the Divine, and using repeated Yoga practice",
+          "support_score": 3.1791319847106934,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "12:9",
+          "best_passage_preview": "If you cannot steadily fix the mind on Me, Arjuna, then seek to attain Me through the Yoga of repeated practice."
+        },
+        {
+          "claim": "By applying these principles through daily quiet sitting, desire journaling, mantra repetition, and evening reflection, one can gradually bring the mind under control and attain everlasting peace",
+          "support_score": 3.293727397918701,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "6:35",
+          "best_passage_preview": "Shree Bhagavan said: The mind is restless no doubt; and difficult to curb, Arjuna; but it can be brought under control b"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "6:35",
+          "passage_preview": "The mind is restless no doubt; and difficult to curb, Arjuna; but it can be brought under control"
+        },
+        {
+          "verse": "6:24",
+          "passage_preview": "Completely renouncing all desires arising from thoughts of the world, and fully restraining the whole pack of the senses"
+        },
+        {
+          "verse": "2:61",
+          "passage_preview": "Having restrained all the senses, he should sit with his mind fixed on Me, devoted and controlling his senses; for the m"
+        },
+        {
+          "verse": "6:15",
+          "passage_preview": "Thus constantly applying his mind to Me, the Yogi of disciplined mind attains the everlasting peace"
+        },
+        {
+          "verse": "12:9",
+          "passage_preview": "If you cannot steadily fix the mind on Me, Arjuna, then seek to attain Me through the Yoga of repeated practice."
+        }
+      ]
+    },
+    {
+      "query": "How should I deal with difficult people in my life?",
+      "persona": "versatile",
+      "response_time": 24.54455304145813,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 2.6383368968963623,
+      "citation_coverage": 1.0,
+      "total_claims": 7,
+      "supported_claims": 7,
+      "bleu_score": 0.0,
+      "rouge_l": 0.031746031746031744,
+      "bert_precision": 0.4620414972305298,
+      "bert_recall": 0.5153854489326477,
+      "bert_f1": 0.48725783824920654,
+      "semantic_similarity": 0.5460575819015503,
+      "contextual_relevance": 0.34994032979011536,
+      "factual_consistency": 0.3938943346341451,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.546112298965454,
+      "overall_score": 0.773056149482727,
+      "generated_answer": "The Bhagavad‑Gītā offers a clear roadmap for dealing with difficult people: cultivate inner calm by letting go of passion, fear and anger (4:10); see every person as a seeker of the Divine (4:11); recognize that sense‑based pleasures cause suffering and fuel conflict (5:22); avoid being swayed by fear of infamy (2:34); and replace negative traits like arrogance and deceit with humility and honesty (18:28). Practical steps include pausing to breathe, viewing the other as a seeker, identifying fleeting desires, focusing on integrity over reputation, and reflecting on personal shortcomings. Integrating these practices through morning reflection, mindful listening, journaling, reputation checks, and weekly character audits turns challenging relationships into opportunities for spiritual growth.",
+      "retrieved_docs": [
+        "2:34",
+        "18:28",
+        "4:11",
+        "4:10",
+        "5:22"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Bhagavad‑Gītā offers a clear roadmap for dealing with difficult people: cultivate inner calm by letting go of passion, fear and anger (4:10)",
+          "support_score": 3.084883689880371,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "2:34",
+          "best_passage_preview": "Nay, people will also pour undying infamy on you; and infamy brought on a man enjoying popular esteem is worse than deat"
+        },
+        {
+          "claim": "see every person as a seeker of the Divine (4:11)",
+          "support_score": 2.155303478240967,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "5:22",
+          "best_passage_preview": "The pleasures which are born of sense-contacts are verily a source of suffering only. They have a beginning and an end. "
+        },
+        {
+          "claim": "recognize that sense‑based pleasures cause suffering and fuel conflict (5:22)",
+          "support_score": 2.9204211235046387,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "2:34",
+          "best_passage_preview": "Nay, people will also pour undying infamy on you; and infamy brought on a man enjoying popular esteem is worse than deat"
+        },
+        {
+          "claim": "avoid being swayed by fear of infamy (2:34)",
+          "support_score": 2.1606993675231934,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "2:34",
+          "best_passage_preview": "Nay, people will also pour undying infamy on you; and infamy brought on a man enjoying popular esteem is worse than deat"
+        },
+        {
+          "claim": "and replace negative traits like arrogance and deceit with humility and honesty (18:28)",
+          "support_score": 2.3875651359558105,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "2:34",
+          "best_passage_preview": "Nay, people will also pour undying infamy on you; and infamy brought on a man enjoying popular esteem is worse than deat"
+        },
+        {
+          "claim": "Practical steps include pausing to breathe, viewing the other as a seeker, identifying fleeting desires, focusing on integrity over reputation, and reflecting on personal shortcomings",
+          "support_score": 2.845552921295166,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "2:34",
+          "best_passage_preview": "Nay, people will also pour undying infamy on you; and infamy brought on a man enjoying popular esteem is worse than deat"
+        },
+        {
+          "claim": "Integrating these practices through morning reflection, mindful listening, journaling, reputation checks, and weekly character audits turns challenging relationships into opportunities for spiritual growth",
+          "support_score": 2.9139325618743896,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "2:34",
+          "best_passage_preview": "Nay, people will also pour undying infamy on you; and infamy brought on a man enjoying popular esteem is worse than deat"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "4:10",
+          "passage_preview": "Completely rid of passion, fear and anger, wholly absorbed in me, depending on me, and purified by the penance of wisdom"
+        },
+        {
+          "verse": "4:11",
+          "passage_preview": "Arjuna, howsoever men seek Me; even so do I approach them; for all men follow My path in every way."
+        },
+        {
+          "verse": "5:22",
+          "passage_preview": "The pleasures which are born of sense-contacts are verily a source of suffering only. They have a beginning and an end."
+        },
+        {
+          "verse": "2:34",
+          "passage_preview": "Nay, people will also pour undying infamy on you; and infamy brought on a man enjoying popular esteem is worse than death"
+        },
+        {
+          "verse": "18:28",
+          "passage_preview": "Lacking piety and self-control, uncultured, arrogant, deceitful, inclined to rob others of their livelihood, slothful"
+        }
+      ]
+    },
+    {
+      "query": "What is the best way to handle failure and success?",
+      "persona": "versatile",
+      "response_time": 21.953324794769287,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.9932165145874023,
+      "citation_coverage": 1.0,
+      "total_claims": 2,
+      "supported_claims": 2,
+      "bleu_score": 0.0,
+      "rouge_l": 0.06976744186046512,
+      "bert_precision": 0.4508228898048401,
+      "bert_recall": 0.6232393980026245,
+      "bert_f1": 0.523192286491394,
+      "semantic_similarity": 0.5226428508758545,
+      "contextual_relevance": 0.4221554398536682,
+      "factual_consistency": 0.36409371097882587,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.9977388381958008,
+      "overall_score": 0.9988694190979004,
+      "generated_answer": "The Gītā teaches that the best way to handle failure and success is through equanimity, detachment from outcomes, steadfast performance of duty, and fearlessness before the divine. Passages 2:38, 12:5, 18:8, and 11:49 provide the textual basis for this balanced approach, and differing philosophical schools interpret these verses as pointing either to non‑dual realization or devotional surrender, yet both converge on the need for a steady mind.",
+      "retrieved_docs": [
+        "2:38",
+        "12:5",
+        "18:28",
+        "18:8",
+        "11:49"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Gītā teaches that the best way to handle failure and success is through equanimity, detachment from outcomes, steadfast performance of duty, and fearlessness before the divine",
+          "support_score": 3.901296615600586,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "12:5",
+          "best_passage_preview": "Of course, the strain is greater for those who have their mind attached to the Unmanifest; for atonement with the Unmani"
+        },
+        {
+          "claim": "Passages 2:38, 12:5, 18:8, and 11:49 provide the textual basis for this balanced approach, and differing philosophical schools interpret these verses as pointing either to non‑dual realization or devotional surrender, yet both converge on the need for a steady mind",
+          "support_score": 4.085136413574219,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "12:5",
+          "best_passage_preview": "Of course, the strain is greater for those who have their mind attached to the Unmanifest; for atonement with the Unmani"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "2:38",
+          "passage_preview": "Treating alike victory and defeat, gain and loss, pleasure and pain, get ready for the fight, then; fighting thus you wi"
+        },
+        {
+          "verse": "12:5",
+          "passage_preview": "Of course, the strain is greater for those who have their mind attached to the Unmanifest; for atonement with the Unmani"
+        },
+        {
+          "verse": "18:8",
+          "passage_preview": "Should anyone give up his duties for fear of physical strain, thinking that all action is verily of the nature of discom"
+        },
+        {
+          "verse": "11:49",
+          "passage_preview": "Seeing such a dreadful Form of Mine as this, be not perturbed or perplexed; with a fearless and complacent mind, behold"
+        }
+      ]
+    },
+    {
+      "query": "How can I overcome fear and anxiety?",
+      "persona": "versatile",
+      "response_time": 19.14564847946167,
+      "recall@1": 0.25,
+      "recall@3": 0.25,
+      "recall@5": 0.25,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "mrr": 1.0,
+      "ndcg@1": 1.0,
+      "ndcg@3": 0.46927872602275644,
+      "ndcg@5": 0.3903800499921017,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 4.2415313720703125,
+      "citation_coverage": 1.0,
+      "total_claims": 1,
+      "supported_claims": 1,
+      "bleu_score": 0.0,
+      "rouge_l": 0.2181818181818182,
+      "bert_precision": 0.5757107734680176,
+      "bert_recall": 0.5757107734680176,
+      "bert_f1": 0.5757107734680176,
+      "semantic_similarity": 0.5338940620422363,
+      "contextual_relevance": 0.5675544738769531,
+      "factual_consistency": 0.4177294572194417,
+      "ragita_score": 0.7,
+      "retrieval_f1": 0.22222222222222224,
+      "grounding_quality": 2.080510457356771,
+      "overall_score": 1.1513663397894967,
+      "generated_answer": "The Gita teaches that fear stems from the three material modes, but by becoming completely rid of fear, wholly absorbed in the Divine, and cultivating a fearless mind, one can overcome anxiety through devotion, wisdom, and detachment.",
+      "retrieved_docs": [
+        "4:10",
+        "2:35",
+        "7:14",
+        "2:8",
+        "11:49"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Gita teaches that fear stems from the three material modes, but by becoming completely rid of fear, wholly absorbed in the Divine, and cultivating a fearless mind, one can overcome anxiety through devotion, wisdom, and detachment",
+          "support_score": 4.2415313720703125,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "2:35",
+          "best_passage_preview": "And the warrior-chiefs who thought highly of you, will now despise you, thinking that it was fear which drove you from b"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "4:10",
+          "passage_preview": "Completely rid of passion, fear and anger, wholly absorbed in me, depending on me, and purified by the penance of wisdom"
+        },
+        {
+          "verse": "7:14",
+          "passage_preview": "This divine energy of Mine, consisting of the three modes of material nature, is difficult to overcome"
+        },
+        {
+          "verse": "11:49",
+          "passage_preview": "be not perturbed or perplexed; with a fearless and complacent mind, behold"
+        },
+        {
+          "verse": "2:8",
+          "passage_preview": "I do not see that which can remove the sorrow of my senses, even after gaining the kingdom on this earth"
+        },
+        {
+          "verse": "2:35",
+          "passage_preview": "warrior‑chiefs ... will now despise you, thinking that it was fear which drove you"
+        }
+      ]
+    },
+    {
+      "query": "How should I make important life decisions?",
+      "persona": "versatile",
+      "response_time": 21.595372438430786,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 2.76520836353302,
+      "citation_coverage": 1.0,
+      "total_claims": 2,
+      "supported_claims": 2,
+      "bleu_score": 0.0,
+      "rouge_l": 0.12698412698412698,
+      "bert_precision": 0.4715823829174042,
+      "bert_recall": 0.6143008470535278,
+      "bert_f1": 0.5335627794265747,
+      "semantic_similarity": 0.6398703455924988,
+      "contextual_relevance": 0.4316226541996002,
+      "factual_consistency": 0.5260730584462484,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.58840278784434,
+      "overall_score": 0.79420139392217,
+      "generated_answer": "The Gītā advises that important decisions be rooted in scriptural wisdom, clarified by a discerning intellect, aligned with one’s dharma, performed without disturbing others, and carried out with steady resolve. This balanced approach prevents paralysis, avoids harmful avoidance, and cultivates both personal fulfillment and societal harmony.",
+      "retrieved_docs": [
+        "3:23",
+        "16:24",
+        "3:26",
+        "18:30",
+        "18:8"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Gītā advises that important decisions be rooted in scriptural wisdom, clarified by a discerning intellect, aligned with one’s dharma, performed without disturbing others, and carried out with steady resolve",
+          "support_score": 3.002957820892334,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "18:30",
+          "best_passage_preview": "The intellect which correctly determines the paths of activity and renunciation, what ought to be done and what should n"
+        },
+        {
+          "claim": "This balanced approach prevents paralysis, avoids harmful avoidance, and cultivates both personal fulfillment and societal harmony",
+          "support_score": 2.527458906173706,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "3:23",
+          "best_passage_preview": "Should I not engage in action, scrupulously at any time, great harm will come to the world; for, Arjuna, men follow My w"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "16:24",
+          "passage_preview": "Therefore, the scripture alone is your guide in determining what should be done and what should not be done."
+        },
+        {
+          "verse": "18:30",
+          "passage_preview": "The intellect which correctly determines the paths of activity and renunciation, what ought to be done and what should n"
+        },
+        {
+          "verse": "3:23",
+          "passage_preview": "Should I not engage in action, scrupulously at any time, great harm will come to the world; for, Arjuna, men follow My w"
+        },
+        {
+          "verse": "18:8",
+          "passage_preview": "Should anyone give up his duties for fear of physical strain, thinking that all action is verily of the nature of discom"
+        },
+        {
+          "verse": "3:26",
+          "passage_preview": "A wise man established in the Self, should not unsettle the mind of the ignorant attached to action, but should perform"
+        }
+      ]
+    },
+    {
+      "query": "What are the different paths to spiritual realization?",
+      "persona": "versatile",
+      "response_time": 21.83757734298706,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.760281562805176,
+      "citation_coverage": 1.0,
+      "total_claims": 2,
+      "supported_claims": 2,
+      "bleu_score": 0.0,
+      "rouge_l": 0.0816326530612245,
+      "bert_precision": 0.4392033815383911,
+      "bert_recall": 0.5080207586288452,
+      "bert_f1": 0.4711122214794159,
+      "semantic_similarity": 0.5017952919006348,
+      "contextual_relevance": 0.6331705451011658,
+      "factual_consistency": 0.581001083056132,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.9200938542683919,
+      "overall_score": 0.9600469271341959,
+      "generated_answer": "The Bhagavad‑Gītā describes multiple interrelated paths to spiritual realization: the path of knowledge with renunciation of fruit (12:12), the path of meditation that reveals the supreme spirit in the heart (13:25), the path of concentrated mind fixed on the Supreme (6:25), the path of self‑knowledge that sees God as true knowledge (13:12), and the need to move beyond desire‑driven worship of other deities (7:20). These approaches are presented as complementary, leading together to the direct realization of the divine and liberation.",
+      "retrieved_docs": [
+        "12:12",
+        "13:25",
+        "6:25",
+        "13:12",
+        "7:20"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Bhagavad‑Gītā describes multiple interrelated paths to spiritual realization: the path of knowledge with renunciation of fruit (12:12), the path of meditation that reveals the supreme spirit in the heart (13:25), the path of concentrated mind fixed on the Supreme (6:25), the path of self‑knowledge that sees God as true knowledge (13:12), and the need to move beyond desire‑driven worship of other deities (7:20)",
+          "support_score": 3.1304168701171875,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "13:25",
+          "best_passage_preview": "Some by meditation behold the supreme Spirit in the heart with the help of their refined and sharp intellect; others rea"
+        },
+        {
+          "claim": "These approaches are presented as complementary, leading together to the direct realization of the divine and liberation",
+          "support_score": 4.390146255493164,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "13:25",
+          "best_passage_preview": "Some by meditation behold the supreme Spirit in the heart with the help of their refined and sharp intellect; others rea"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "12:12",
+          "passage_preview": "Knowledge is better than practice, meditation on God is superior to knowledge, and renunciation of the fruit of actions"
+        },
+        {
+          "verse": "13:25",
+          "passage_preview": "Some by meditation behold the supreme Spirit in the heart with the help of their refined and sharp intellect; others rea"
+        },
+        {
+          "verse": "6:25",
+          "passage_preview": "Gradually, with the mind fixed on the Supreme, and with firm determination, one should not think of anything else."
+        },
+        {
+          "verse": "13:12",
+          "passage_preview": "Fixity in self-knowledge and seeing God as the object of true knowledge, all this is declared as knowledge; and what is"
+        },
+        {
+          "verse": "7:20",
+          "passage_preview": "Those whose wisdom has been carried away by various desires, being prompted by their own nature, worship other deities a"
+        }
+      ]
+    },
+    {
+      "query": "How can I develop devotion to God?",
+      "persona": "versatile",
+      "response_time": 46.33775210380554,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.6951698549091816,
+      "citation_coverage": 0.09803921568627451,
+      "total_claims": 64,
+      "supported_claims": 64,
+      "bleu_score": 0.0,
+      "rouge_l": 0.013671874999999998,
+      "bert_precision": 0.40760019421577454,
+      "bert_recall": 0.6667261719703674,
+      "bert_f1": 0.5059127807617188,
+      "semantic_similarity": 0.6141033172607422,
+      "contextual_relevance": 0.6030621528625488,
+      "factual_consistency": 0.5619483391443888,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.597736356865152,
+      "overall_score": 0.798868178432576,
+      "generated_answer": "**Cultivating Devotion to the Divine**\n\nDeveloping a heartfelt devotion (bhakti) is a gentle unfolding of the soul toward the Supreme. The Bhagavad‑Gītā offers clear guidance that can be turned into daily practice, allowing the love for God to grow steady, deep, and transformative.\n\n---\n\n### 1. Recognize the Supreme as the Source of All\n\nBegin by contemplating the truth that the Divine is the origin of everything. When the mind rests on this reality, worship arises naturally.\n\n> “I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion.” [10:8]\n\n**Practice:** Each morning, spend a few minutes in quiet reflection, repeating the affirmation “All comes from the Divine.” Let this awareness set the tone for the day, reminding you that every breath, thought, and action is a gift from the Source.\n\n---\n\n### 2. Choose a Form of the Divine and Strengthen Faith\n\nThe Gītā assures that sincere faith in any chosen celestial form is honored and steadied by the Supreme.\n\n> “Whatever celestial form a devotee worships with faith, I make that faith of his steady.” [7:21]\n\n**Practice:** Select a form of God that resonates with your heart—be it a personal image, a mantra, or an abstract concept. Place this representation in a quiet corner, and each evening, look upon it with reverence, silently renewing your trust. Over time, this ritual steadies your devotion.\n\n---\n\n### 3. Offer Sincere Worship with the Aim of Knowing the Divine Essence\n\nTrue devotion is not merely ritual; it is a yearning to know the Divine in essence. When devotion reaches its supreme height, the seeker perceives the Divine’s greatness directly.\n\n> “Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence.” [18:55]\n\n**Practice:** After your daily meditation, offer a simple prayer or song expressing the desire to “know the Divine’s true nature.” Feel the offering as a heartfelt surrender rather than a formal duty. This openness invites the deep realization promised by the verse.\n\n---\n\n### 4. Understand the Limits of Partial Worship and Aspire to Supreme Devotion\n\nWorship directed only toward lesser deities yields limited, perishable results. The Gītā contrasts this with the lasting fulfillment of those who devote themselves to the Supreme.\n\n> “But the results of their worship are limited and perishable; those who worship the gods go to the gods, but My devotees…” [7:23]\n\n**Practice:** Reflect on this distinction weekly. Write in a journal how past habits of seeking temporary pleasures compare with the lasting peace that arises from sincere devotion to the Supreme. Let this insight guide you away from fleeting gratifications toward enduring spiritual fulfillment.\n\n---\n\n### 5. Trust That Faith Brings Desired Enjoyments Through the Divine\n\nWhen faith is sincere, the Divine grants the devotee the enjoyments they seek, free from doubt.\n\n> “Endowed with such faith he worship that particular deity and obtains through him without doubt his desired enjoyments as…” [7:22]\n\n**Practice:** Identify a genuine, wholesome desire (e.g., compassion, patience, or service). Offer it to the Divine in prayer, trusting that through devotion you will receive it. Observe how the quality you asked for gradually blossoms in your life, reinforcing your faith.\n\n---\n\n### 6. Integrate Devotion Into Everyday Actions\n\nDevotion is not confined to formal prayer; it flourishes in every act performed with mindfulness of the Divine presence.\n\n> “I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion.” [10:8] *(re‑emphasized)*\n\n**Practice:** Choose one routine task each day—washing dishes, walking, or working—and perform it as an offering to the Divine, remembering that the act itself is an expression of worship. This transforms ordinary moments into sacred opportunities for devotion.\n\n---\n\n**Closing Reflection**\n\nMay your heart, like a lamp nurtured by steady oil, shine ever brighter with love for the Divine. As you walk this path, remember that each sincere step deepens your connection, leading you toward the ultimate realization of the Supreme’s boundless greatness.\n\n**Om shanti. — RAGita**\n\nRESULT: {\"summary\":\"Develop devotion by recognizing the Divine as the source of all, choosing a form to focus faith, offering sincere worship to know the Divine’s essence, understanding the limits of partial worship, trusting that faith brings desired enjoyments, and integrating devotion into daily actions. Each step is grounded in Gītā verses that guide the practitioner toward steady, heartfelt bhakti.\",\"steps\":[{\"text\":\"Contemplate that the Divine is the origin of everything and begin each day with the affirmation “All comes from the Divine.”\",\"citation\":\"10:8\",\"quote\":\"I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion.\"},{\"text\":\"Select a form of God that resonates with you and, each evening, look upon it with reverence to steady your faith.\",\"citation\":\"7:21\",\"quote\":\"Whatever celestial form a devotee worships with faith, I make that faith of his steady.\"},{\"text\":\"Offer sincere prayer or song after meditation, expressing the desire to know the Divine’s true nature.\",\"citation\":\"18:55\",\"quote\":\"Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence.\"},{\"text\":\"Reflect weekly on the limited results of worshiping lesser deities and aspire to supreme devotion for lasting fulfillment.\",\"citation\":\"7:23\",\"quote\":\"But the results of their worship are limited and perishable; those who worship the gods go to the gods, but My devotees\"},\"citation\":\"7:22\",\"quote\":\"Endowed with such faith he worship that particular deity and obtains through him without doubt his desired enjoyments as\"},{\"text\":\"Identify a wholesome desire, offer it to the Divine in prayer, and trust that devotion will bring it without doubt.\",\"citation\":\"7:22\",\"quote\":\"Endowed with such faith he worship that particular deity and obtains through him without doubt his desired enjoyments as\"}],\"citations\":[{\"verse\":\"10:8\",\"passage_preview\":\"I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion.\"},{\"verse\":\"7:21\",\"passage_preview\":\"Whatever celestial form a devotee worships with faith, I make that faith of his steady.\"},{\"verse\":\"18:55\",\"passage_preview\":\"Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence.\"},{\"verse\":\"7:23\",\"passage_preview\":\"But the results of their worship are limited and perishable; those who worship the gods go to the gods, but My devotees\"}]}}",
+      "retrieved_docs": [
+        "18:55",
+        "10:8",
+        "7:21",
+        "7:22",
+        "7:23"
+      ],
+      "verification_details": [
+        {
+          "claim": "**Cultivating Devotion to the Divine** Developing a heartfelt devotion (bhakti) is a gentle unfolding of the soul toward the Supreme",
+          "support_score": 3.236515998840332,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "The Bhagavad‑Gītā offers clear guidance that can be turned into daily practice, allowing the love for God to grow steady, deep, and transformative",
+          "support_score": 3.7830591201782227,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "Recognize the Supreme as the Source of All Begin by contemplating the truth that the Divine is the origin of everything",
+          "support_score": 4.081108093261719,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "When the mind rests on this reality, worship arises naturally",
+          "support_score": 3.5776610374450684,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "> “I am the origin of all",
+          "support_score": 4.463343143463135,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "10:8",
+          "best_passage_preview": "I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion."
+        },
+        {
+          "claim": "everything proceeds from Me",
+          "support_score": 4.249851226806641,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "Understanding this, the wise worship Me with devotion",
+          "support_score": 4.144076824188232,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "” [10:8] **Practice:** Each morning, spend a few minutes in quiet reflection, repeating the affirmation “All comes from the Divine",
+          "support_score": 3.853091239929199,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "” Let this awareness set the tone for the day, reminding you that every breath, thought, and action is a gift from the Source",
+          "support_score": 3.0156350135803223,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "Choose a Form of the Divine and Strengthen Faith The Gītā assures that sincere faith in any chosen celestial form is honored and steadied by the Supreme",
+          "support_score": 3.4485487937927246,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "> “Whatever celestial form a devotee worships with faith, I make that faith of his steady",
+          "support_score": 2.9707608222961426,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "” [7:21] **Practice:** Select a form of God that resonates with your heart—be it a personal image, a mantra, or an abstract concept",
+          "support_score": 3.535946846008301,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "Place this representation in a quiet corner, and each evening, look upon it with reverence, silently renewing your trust",
+          "support_score": 3.5948097705841064,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "Over time, this ritual steadies your devotion",
+          "support_score": 3.0313355922698975,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "10:8",
+          "best_passage_preview": "I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion."
+        },
+        {
+          "claim": "Offer Sincere Worship with the Aim of Knowing the Divine Essence True devotion is not merely ritual",
+          "support_score": 3.2160353660583496,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "it is a yearning to know the Divine in essence",
+          "support_score": 3.4290900230407715,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "When devotion reaches its supreme height, the seeker perceives the Divine’s greatness directly",
+          "support_score": 3.077653646469116,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "> “Through that supreme devotion he comes to know Me in reality, what and how great I am",
+          "support_score": 3.358941078186035,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "and thereby knowing Me in essence",
+          "support_score": 4.475530624389648,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "” [18:55] **Practice:** After your daily meditation, offer a simple prayer or song expressing the desire to “know the Divine’s true nature",
+          "support_score": 3.7324485778808594,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "” Feel the offering as a heartfelt surrender rather than a formal duty",
+          "support_score": 3.0489213466644287,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "This openness invites the deep realization promised by the verse",
+          "support_score": 3.803776979446411,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "10:8",
+          "best_passage_preview": "I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion."
+        },
+        {
+          "claim": "Understand the Limits of Partial Worship and Aspire to Supreme Devotion Worship directed only toward lesser deities yields limited, perishable results",
+          "support_score": 3.4749207496643066,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "7:23",
+          "best_passage_preview": "But the results of their worship are limited and perishable; those who worship the gods go to the gods, but My devotees "
+        },
+        {
+          "claim": "The Gītā contrasts this with the lasting fulfillment of those who devote themselves to the Supreme",
+          "support_score": 4.106359004974365,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "> “But the results of their worship are limited and perishable",
+          "support_score": 4.297482013702393,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "7:23",
+          "best_passage_preview": "But the results of their worship are limited and perishable; those who worship the gods go to the gods, but My devotees "
+        },
+        {
+          "claim": "those who worship the gods go to the gods, but My devotees…” [7:23] **Practice:** Reflect on this distinction weekly",
+          "support_score": 3.813213348388672,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "7:23",
+          "best_passage_preview": "But the results of their worship are limited and perishable; those who worship the gods go to the gods, but My devotees "
+        },
+        {
+          "claim": "Write in a journal how past habits of seeking temporary pleasures compare with the lasting peace that arises from sincere devotion to the Supreme",
+          "support_score": 3.794814109802246,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "Let this insight guide you away from fleeting gratifications toward enduring spiritual fulfillment",
+          "support_score": 2.832369327545166,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "Trust That Faith Brings Desired Enjoyments Through the Divine When faith is sincere, the Divine grants the devotee the enjoyments they seek, free from doubt",
+          "support_score": 2.6783430576324463,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "> “Endowed with such faith he worship that particular deity and obtains through him without doubt his desired enjoyments as…” [7:22] **Practice:** Identify a genuine, wholesome desire (e",
+          "support_score": 3.004218578338623,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": ", compassion, patience, or service)",
+          "support_score": 3.592531681060791,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "10:8",
+          "best_passage_preview": "I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion."
+        },
+        {
+          "claim": "Offer it to the Divine in prayer, trusting that through devotion you will receive it",
+          "support_score": 3.3401618003845215,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "Observe how the quality you asked for gradually blossoms in your life, reinforcing your faith",
+          "support_score": 2.9141550064086914,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "7:22",
+          "best_passage_preview": "Endowed with such faith he worship that particular deity and obtains through him without doubt his desired enjoyments as"
+        },
+        {
+          "claim": "Integrate Devotion Into Everyday Actions Devotion is not confined to formal prayer",
+          "support_score": 4.170073509216309,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "it flourishes in every act performed with mindfulness of the Divine presence",
+          "support_score": 4.078944206237793,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "> “I am the origin of all",
+          "support_score": 4.463343143463135,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "10:8",
+          "best_passage_preview": "I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion."
+        },
+        {
+          "claim": "everything proceeds from Me",
+          "support_score": 4.249851226806641,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "Understanding this, the wise worship Me with devotion",
+          "support_score": 4.144076824188232,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "” [10:8] *(re‑emphasized)* **Practice:** Choose one routine task each day—washing dishes, walking, or working—and perform it as an offering to the Divine, remembering that the act itself is an expression of worship",
+          "support_score": 3.8545026779174805,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "This transforms ordinary moments into sacred opportunities for devotion",
+          "support_score": 3.634085178375244,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "--- **Closing Reflection** May your heart, like a lamp nurtured by steady oil, shine ever brighter with love for the Divine",
+          "support_score": 3.906080961227417,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "As you walk this path, remember that each sincere step deepens your connection, leading you toward the ultimate realization of the Supreme’s boundless greatness",
+          "support_score": 3.4302353858947754,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "7:22",
+          "best_passage_preview": "Endowed with such faith he worship that particular deity and obtains through him without doubt his desired enjoyments as"
+        },
+        {
+          "claim": "— RAGita** RESULT: {\"summary\":\"Develop devotion by recognizing the Divine as the source of all, choosing a form to focus faith, offering sincere worship to know the Divine’s essence, understanding the limits of partial worship, trusting that faith brings desired enjoyments, and integrating devotion into daily actions",
+          "support_score": 3.8304407596588135,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "Each step is grounded in Gītā verses that guide the practitioner toward steady, heartfelt bhakti",
+          "support_score": 3.861119270324707,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "\",\"steps\":[{\"text\":\"Contemplate that the Divine is the origin of everything and begin each day with the affirmation “All comes from the Divine",
+          "support_score": 3.9838361740112305,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "”\",\"citation\":\"10:8\",\"quote\":\"I am the origin of all",
+          "support_score": 4.461570739746094,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "10:8",
+          "best_passage_preview": "I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion."
+        },
+        {
+          "claim": "everything proceeds from Me",
+          "support_score": 4.249851226806641,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "Understanding this, the wise worship Me with devotion",
+          "support_score": 4.144076824188232,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "\"},{\"text\":\"Select a form of God that resonates with you and, each evening, look upon it with reverence to steady your faith",
+          "support_score": 3.7481541633605957,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "\",\"citation\":\"7:21\",\"quote\":\"Whatever celestial form a devotee worships with faith, I make that faith of his steady",
+          "support_score": 2.935384511947632,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "\"},{\"text\":\"Offer sincere prayer or song after meditation, expressing the desire to know the Divine’s true nature",
+          "support_score": 3.44771409034729,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "\",\"citation\":\"18:55\",\"quote\":\"Through that supreme devotion he comes to know Me in reality, what and how great I am",
+          "support_score": 2.9723832607269287,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "10:8",
+          "best_passage_preview": "I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion."
+        },
+        {
+          "claim": "and thereby knowing Me in essence",
+          "support_score": 4.475530624389648,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "\"},{\"text\":\"Reflect weekly on the limited results of worshiping lesser deities and aspire to supreme devotion for lasting fulfillment",
+          "support_score": 3.981415271759033,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "\",\"citation\":\"7:23\",\"quote\":\"But the results of their worship are limited and perishable",
+          "support_score": 4.376965522766113,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "7:23",
+          "best_passage_preview": "But the results of their worship are limited and perishable; those who worship the gods go to the gods, but My devotees "
+        },
+        {
+          "claim": "those who worship the gods go to the gods, but My devotees\"},\"citation\":\"7:22\",\"quote\":\"Endowed with such faith he worship that particular deity and obtains through him without doubt his desired enjoyments as\"},{\"text\":\"Identify a wholesome desire, offer it to the Divine in prayer, and trust that devotion will bring it without doubt",
+          "support_score": 3.1719374656677246,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "7:23",
+          "best_passage_preview": "But the results of their worship are limited and perishable; those who worship the gods go to the gods, but My devotees "
+        },
+        {
+          "claim": "\",\"citation\":\"7:22\",\"quote\":\"Endowed with such faith he worship that particular deity and obtains through him without doubt his desired enjoyments as\"}],\"citations\":[{\"verse\":\"10:8\",\"passage_preview\":\"I am the origin of all",
+          "support_score": 3.224102735519409,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "everything proceeds from Me",
+          "support_score": 4.249851226806641,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "Understanding this, the wise worship Me with devotion",
+          "support_score": 4.144076824188232,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "\"},{\"verse\":\"7:21\",\"passage_preview\":\"Whatever celestial form a devotee worships with faith, I make that faith of his steady",
+          "support_score": 2.8523383140563965,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "\"},{\"verse\":\"18:55\",\"passage_preview\":\"Through that supreme devotion he comes to know Me in reality, what and how great I am",
+          "support_score": 2.708751678466797,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "and thereby knowing Me in essence",
+          "support_score": 4.475530624389648,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "18:55",
+          "best_passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "claim": "\"},{\"verse\":\"7:23\",\"passage_preview\":\"But the results of their worship are limited and perishable",
+          "support_score": 4.299368858337402,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "7:23",
+          "best_passage_preview": "But the results of their worship are limited and perishable; those who worship the gods go to the gods, but My devotees "
+        },
+        {
+          "claim": "those who worship the gods go to the gods, but My devotees\"}]}}",
+          "support_score": 3.988567590713501,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "7:23",
+          "best_passage_preview": "But the results of their worship are limited and perishable; those who worship the gods go to the gods, but My devotees "
+        }
+      ],
+      "citations": [
+        {
+          "verse": "18:55",
+          "passage_preview": "Through that supreme devotion he comes to know Me in reality, what and how great I am; and thereby knowing Me in essence"
+        },
+        {
+          "verse": "10:8",
+          "passage_preview": "I am the origin of all; everything proceeds from Me. Understanding this, the wise worship Me with devotion."
+        },
+        {
+          "verse": "7:21",
+          "passage_preview": "Whatever celestial form a devoteeworships with faith, I make that faith of his steady."
+        },
+        {
+          "verse": "7:22",
+          "passage_preview": "Endowed with such faith he worship that particular deity and obtains through him without doubt his desired enjoyments as"
+        },
+        {
+          "verse": "7:23",
+          "passage_preview": "But the results of their worship are limited and perishable; those who worship the gods go to the gods, but My devotees"
+        }
+      ]
+    },
+    {
+      "query": "What is the goal of meditation according to Krishna?",
+      "persona": "versatile",
+      "response_time": 4.97000527381897,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.7017672061920166,
+      "citation_coverage": 1.0,
+      "total_claims": 1,
+      "supported_claims": 1,
+      "bleu_score": 0.0,
+      "rouge_l": 0.18181818181818182,
+      "bert_precision": 0.4668581783771515,
+      "bert_recall": 0.4668581783771515,
+      "bert_f1": 0.4668581783771515,
+      "semantic_similarity": 0.49431756138801575,
+      "contextual_relevance": 0.8621987104415894,
+      "factual_consistency": 0.5707947413126627,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.9005890687306721,
+      "overall_score": 0.9502945343653361,
+      "generated_answer": "Krishna describes the goal of meditation as the direct vision of the supreme Spirit in the heart, leading to self‑realisation, fearlessness, purity of mind, and intimate knowledge of the Lord, all integrated with righteous action.",
+      "retrieved_docs": [
+        "13:25",
+        "16:1",
+        "8:8",
+        "10:17",
+        "6:3"
+      ],
+      "verification_details": [
+        {
+          "claim": "Krishna describes the goal of meditation as the direct vision of the supreme Spirit in the heart, leading to self‑realisation, fearlessness, purity of mind, and intimate knowledge of the Lord, all integrated with righteous action",
+          "support_score": 3.7017672061920166,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "13:25",
+          "best_passage_preview": "Some by meditation behold the supreme Spirit in the heart with the help of their refined and sharp intellect; others rea"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "13:25",
+          "passage_preview": "Some by meditation behold the supreme Spirit in the heart with the help of their refined and sharp intellect; others rea"
+        },
+        {
+          "verse": "16:1",
+          "passage_preview": "Absolute fearlessness, perfect purity of mind; constant fixity in the Yoga of meditation for the sake of Self-Realizatio"
+        },
+        {
+          "verse": "10:17",
+          "passage_preview": "O Master of Yoga, through what process of continuous meditation shall I know You? And in what particular forms, O Lord,"
+        },
+        {
+          "verse": "8:8",
+          "passage_preview": "Arjuna, he who with his mind disciplined through Yoga in the form of practice of meditation and thinking of nothing else"
+        },
+        {
+          "verse": "6:3",
+          "passage_preview": "To the contemplative soul who desires to ascend to Yoga, action is said to be the cause; to him who is attached to Yoga,"
+        }
+      ]
+    },
+    {
+      "query": "How can I surrender to God completely?",
+      "persona": "versatile",
+      "response_time": 10.496400356292725,
+      "recall@1": 0.2,
+      "recall@3": 0.4,
+      "recall@5": 0.4,
+      "precision@1": 1.0,
+      "precision@3": 0.6666666666666666,
+      "precision@5": 0.4,
+      "mrr": 1.0,
+      "ndcg@1": 1.0,
+      "ndcg@3": 0.7653606369886217,
+      "ndcg@5": 0.5531464700081437,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.3986458778381348,
+      "citation_coverage": 1.0,
+      "total_claims": 2,
+      "supported_claims": 2,
+      "bleu_score": 0.0,
+      "rouge_l": 0.16666666666666666,
+      "bert_precision": 0.5848991870880127,
+      "bert_recall": 0.7728557586669922,
+      "bert_f1": 0.6658678650856018,
+      "semantic_similarity": 0.687519371509552,
+      "contextual_relevance": 0.5818539261817932,
+      "factual_consistency": 0.4302712380886078,
+      "ragita_score": 0.76,
+      "retrieval_f1": 0.4000000000000001,
+      "grounding_quality": 1.799548625946045,
+      "overall_score": 1.0997743129730224,
+      "generated_answer": "Complete surrender to God involves exclusive dependence on the Divine, offering all actions as service, taking refuge in Him, meditating on His presence, seeing Him in all beings, and reflecting on self‑salvation, as taught in verses 12:6, 18:66, 16:22, 9:24, and 13:29. The Gītā promises absolution and liberation when these practices are embraced.",
+      "retrieved_docs": [
+        "12:6",
+        "18:66",
+        "16:22",
+        "9:24",
+        "13:29"
+      ],
+      "verification_details": [
+        {
+          "claim": "Complete surrender to God involves exclusive dependence on the Divine, offering all actions as service, taking refuge in Him, meditating on His presence, seeing Him in all beings, and reflecting on self‑salvation, as taught in verses 12:6, 18:66, 16:22, 9:24, and 13:29",
+          "support_score": 2.5594539642333984,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "9:24",
+          "best_passage_preview": "For I am the enjoyer and also the lord of all sacrifices; but they know Me not in reality, hence they fall."
+        },
+        {
+          "claim": "The Gītā promises absolution and liberation when these practices are embraced",
+          "support_score": 4.237837791442871,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "12:6",
+          "best_passage_preview": "On the other hand, those who depending exclusively on Me, and surrendering all actions to Me, worship Me, constantly med"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "12:6",
+          "passage_preview": "On the other hand, those who depending exclusively on Me, and surrendering all actions to Me, worship Me, constantly med..."
+        },
+        {
+          "verse": "18:66",
+          "passage_preview": "Resigning all your duties to Me, the all-powerful and all-supporting Lord, take refuge in Me alone. I shall absolve you"
+        },
+        {
+          "verse": "9:24",
+          "passage_preview": "For I am the enjoyer and also the lord of all sacrifices; but they know Me not in reality, hence they fall."
+        },
+        {
+          "verse": "13:29",
+          "passage_preview": "For, he who kills not himself by himself be seeing the supreme Lord, equally present in all, as one, thereby reaches the"
+        },
+        {
+          "verse": "16:22",
+          "passage_preview": "Freed from these three gates of hell, man works his own salvation and thereby attains the supreme goal i.e., God."
+        }
+      ]
+    },
+    {
+      "query": "What does Krishna say about duty and righteousness?",
+      "persona": "versatile",
+      "response_time": 22.006703853607178,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.2,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.2,
+      "mrr": 0.2,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.13120507751234178,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 2.2874203523000083,
+      "citation_coverage": 1.0,
+      "total_claims": 3,
+      "supported_claims": 3,
+      "bleu_score": 0.0,
+      "rouge_l": 0.1188118811881188,
+      "bert_precision": 0.6425917744636536,
+      "bert_recall": 0.73954176902771,
+      "bert_f1": 0.6876665353775024,
+      "semantic_similarity": 0.6816752552986145,
+      "contextual_relevance": 0.826554000377655,
+      "factual_consistency": 0.5185200969378153,
+      "ragita_score": 0.6799999999999999,
+      "retrieval_f1": 0.20000000000000004,
+      "grounding_quality": 1.4291401174333362,
+      "overall_score": 0.8145700587166681,
+      "generated_answer": "Krishna teaches that duty (dharma) is best performed without attachment to results, guided by discriminative intellect, offered to the Supreme, and aligned with one’s own prescribed role. He states that renunciation lies in self‑less action, that intellect discerns true duty, that self‑less dedication purifies the doer, that one’s own duty, however modest, outweighs another’s flawless performance, and that abandoning scriptural injunctions leads to moral confusion. Together these verses define righteousness as duty performed with inner detachment, divine dedication, and fidelity to one’s personal dharma.",
+      "retrieved_docs": [
+        "6:1",
+        "18:31",
+        "5:10",
+        "17:1",
+        "18:47"
+      ],
+      "verification_details": [
+        {
+          "claim": "Krishna teaches that duty (dharma) is best performed without attachment to results, guided by discriminative intellect, offered to the Supreme, and aligned with one’s own prescribed role",
+          "support_score": 3.2590670585632324,
+          "supported": true,
+          "best_passage_idx": 2,
+          "best_passage_verse": "5:10",
+          "best_passage_preview": "He who performs his duties, abandoning attachment and dedicating all actions to the Supreme, is not tainted by sin, just"
+        },
+        {
+          "claim": "He states that renunciation lies in self‑less action, that intellect discerns true duty, that self‑less dedication purifies the doer, that one’s own duty, however modest, outweighs another’s flawless performance, and that abandoning scriptural injunctions leads to moral confusion",
+          "support_score": 1.5859005451202393,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "18:31",
+          "best_passage_preview": "By which a person knows what is duty and what is not duty, what is action and what is inaction, that intellect, O Partha"
+        },
+        {
+          "claim": "Together these verses define righteousness as duty performed with inner detachment, divine dedication, and fidelity to one’s personal dharma",
+          "support_score": 2.0172934532165527,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "17:1",
+          "best_passage_preview": "Arjuna said: Those who endowed with faith, worship gods and others casting aside the injunctions of the scriptures, wher"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "6:1",
+          "passage_preview": "he who does his duty without expecting the fruit of actions is a Samnyasi and a Yogiboth"
+        },
+        {
+          "verse": "18:31",
+          "passage_preview": "By which a person knows what is duty and what is not duty, what is action and what is inaction, that intellect, O Partha"
+        },
+        {
+          "verse": "5:10",
+          "passage_preview": "He who performs his duties, abandoning attachment and dedicating all actions to the Supreme, is not tainted by sin"
+        },
+        {
+          "verse": "18:47",
+          "passage_preview": "Better is one’s own duty, though devoid of merit, than the duty of another well‑performed; for performing the duty"
+        },
+        {
+          "verse": "17:1",
+          "passage_preview": "Arjuna said: Those who endowed with faith, worship gods and others casting aside the injunctions of the scriptures"
+        }
+      ]
+    },
+    {
+      "query": "How should I handle moral dilemmas?",
+      "persona": "versatile",
+      "response_time": 19.11889123916626,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 4.379748106002808,
+      "citation_coverage": 1.0,
+      "total_claims": 2,
+      "supported_claims": 2,
+      "bleu_score": 0.0,
+      "rouge_l": 0.06153846153846154,
+      "bert_precision": 0.45604369044303894,
+      "bert_recall": 0.5206127762794495,
+      "bert_f1": 0.48619383573532104,
+      "semantic_similarity": 0.44965115189552307,
+      "contextual_relevance": 0.49645310640335083,
+      "factual_consistency": 0.4273059368133545,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 2.126582702000936,
+      "overall_score": 1.063291351000468,
+      "generated_answer": "The Gītā teaches that moral dilemmas require active, discerning action rather than avoidance. By invoking the intellect to determine dharma, checking for greed, considering the broader impact of inaction, purifying intention, seeking wise counsel, and then acting decisively, one can resolve ethical conflicts in line with scriptural guidance.",
+      "retrieved_docs": [
+        "3:23",
+        "18:3",
+        "18:30",
+        "1:38",
+        "1:45"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Gītā teaches that moral dilemmas require active, discerning action rather than avoidance",
+          "support_score": 4.415631294250488,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "18:3",
+          "best_passage_preview": "Some wise men declare that all actions contain a measure of evil, and are therefore worth giving up, while others say th"
+        },
+        {
+          "claim": "By invoking the intellect to determine dharma, checking for greed, considering the broader impact of inaction, purifying intention, seeking wise counsel, and then acting decisively, one can resolve ethical conflicts in line with scriptural guidance",
+          "support_score": 4.343864917755127,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "18:3",
+          "best_passage_preview": "Some wise men declare that all actions contain a measure of evil, and are therefore worth giving up, while others say th"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "3:23",
+          "passage_preview": "Should I not engage in action, scrupulously at any time, great harm will come to the world; for, Arjuna, men follow My w"
+        },
+        {
+          "verse": "18:3",
+          "passage_preview": "Some wise men declare that all actions contain a measure of evil, and are therefore worth giving up, while others say th"
+        },
+        {
+          "verse": "18:30",
+          "passage_preview": "The intellect which correctly determines the paths of activity and renunciation, what ought to be done and what should n"
+        },
+        {
+          "verse": "1:38",
+          "passage_preview": "Even if these people, with minds blinded by greed; perceive no evil in destroying their own race"
+        },
+        {
+          "verse": "1:45",
+          "passage_preview": "Oh what a pity! Though possessed of intelligence we have set our mind on the commission of a great sin in that due to lu"
+        }
+      ]
+    },
+    {
+      "query": "What is the difference between right and wrong action?",
+      "persona": "versatile",
+      "response_time": 23.242318868637085,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.6509861946105957,
+      "citation_coverage": 1.0,
+      "total_claims": 3,
+      "supported_claims": 3,
+      "bleu_score": 0.0,
+      "rouge_l": 0.13513513513513514,
+      "bert_precision": 0.5058558583259583,
+      "bert_recall": 0.6028643846511841,
+      "bert_f1": 0.5501161813735962,
+      "semantic_similarity": 0.5331330895423889,
+      "contextual_relevance": 0.7100999355316162,
+      "factual_consistency": 0.44920651117960614,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.8836620648701985,
+      "overall_score": 0.9418310324350992,
+      "generated_answer": "The Gītā defines right action as duty performed without attachment to results, guided by sattvic causes, self‑knowledge, and willingness, whereas wrong action stems from ignorance, attachment, demoniac disposition, and tamasic causes. Right action aligns with dharma, is niṣkāma (desire‑less), and reflects true understanding of the Self; wrong action is driven by desire, ego, and ignorance, leading to bondage.",
+      "retrieved_docs": [
+        "2:47",
+        "18:15",
+        "18:60",
+        "4:16",
+        "16:7"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Gītā defines right action as duty performed without attachment to results, guided by sattvic causes, self‑knowledge, and willingness, whereas wrong action stems from ignorance, attachment, demoniac disposition, and tamasic causes",
+          "support_score": 3.634993076324463,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "4:16",
+          "best_passage_preview": "What is action and what is inaction? Even men of intelligence are puzzled over this question. Therefore, I shall expound"
+        },
+        {
+          "claim": "Right action aligns with dharma, is niṣkāma (desire‑less), and reflects true understanding of the Self",
+          "support_score": 3.8336615562438965,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "18:15",
+          "best_passage_preview": "These five are the contributory causes of whatever actions, right or wrong man performs with the mind, speech and body."
+        },
+        {
+          "claim": "wrong action is driven by desire, ego, and ignorance, leading to bondage",
+          "support_score": 3.4843039512634277,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "4:16",
+          "best_passage_preview": "What is action and what is inaction? Even men of intelligence are puzzled over this question. Therefore, I shall expound"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "2:47",
+          "passage_preview": "Your right is to work only, but never to the fruit thereof. Be not instrumental in making your actions bear fruit..."
+        },
+        {
+          "verse": "18:15",
+          "passage_preview": "These five are the contributory causes of whatever actions, right or wrong man performs with the mind, speech and body."
+        },
+        {
+          "verse": "18:60",
+          "passage_preview": "That action too which you are not willing to undertake through ignorance,—bound by your own duty born of your nature..."
+        },
+        {
+          "verse": "4:16",
+          "passage_preview": "What is action and what is inaction? Even men of intelligence are puzzled over this question. Therefore, I shall expound..."
+        },
+        {
+          "verse": "16:7",
+          "passage_preview": "Men possessing a demoniac disposition know not what is right activity and what is right abstinence from activity..."
+        }
+      ]
+    },
+    {
+      "query": "Explain the concept of karma and its relationship to free will",
+      "persona": "versatile",
+      "response_time": 21.458195209503174,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 4.2191084861755375,
+      "citation_coverage": 1.0,
+      "total_claims": 5,
+      "supported_claims": 5,
+      "bleu_score": 0.0,
+      "rouge_l": 0.14285714285714285,
+      "bert_precision": 0.4485336244106293,
+      "bert_recall": 0.6468876600265503,
+      "bert_f1": 0.5297521352767944,
+      "semantic_similarity": 0.6401873230934143,
+      "contextual_relevance": 0.7151514291763306,
+      "factual_consistency": 0.5288899044195811,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 2.0730361620585125,
+      "overall_score": 1.0365180810292562,
+      "generated_answer": "The Gītā defines karma as the activity of body, mind, intellect and senses, and explains that actions bind us only when performed with personal attachment. Free will is affirmed because the Divine does not assign doership or the fruits of deeds; the individual chooses. Detachment, selfless sacrifice, and moral reflection dissolve karmic bonds. Five practical steps—selfless work, offering results, cultivating detachment, recognizing agency, and reflecting on moral quality—help apply these teachings.",
+      "retrieved_docs": [
+        "5:11",
+        "4:23",
+        "3:9",
+        "5:14",
+        "18:3"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Gītā defines karma as the activity of body, mind, intellect and senses, and explains that actions bind us only when performed with personal attachment",
+          "support_score": 4.459089279174805,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "18:3",
+          "best_passage_preview": "Some wise men declare that all actions contain a measure of evil, and are therefore worth giving up, while others say th"
+        },
+        {
+          "claim": "Free will is affirmed because the Divine does not assign doership or the fruits of deeds",
+          "support_score": 4.41441535949707,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "18:3",
+          "best_passage_preview": "Some wise men declare that all actions contain a measure of evil, and are therefore worth giving up, while others say th"
+        },
+        {
+          "claim": "the individual chooses",
+          "support_score": 3.5828447341918945,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "18:3",
+          "best_passage_preview": "Some wise men declare that all actions contain a measure of evil, and are therefore worth giving up, while others say th"
+        },
+        {
+          "claim": "Detachment, selfless sacrifice, and moral reflection dissolve karmic bonds",
+          "support_score": 4.324997425079346,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "18:3",
+          "best_passage_preview": "Some wise men declare that all actions contain a measure of evil, and are therefore worth giving up, while others say th"
+        },
+        {
+          "claim": "Five practical steps—selfless work, offering results, cultivating detachment, recognizing agency, and reflecting on moral quality—help apply these teachings",
+          "support_score": 4.31419563293457,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "18:3",
+          "best_passage_preview": "Some wise men declare that all actions contain a measure of evil, and are therefore worth giving up, while others say th"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "5:11",
+          "passage_preview": "The Karmayogis perform action only with their senses, mind, intellect and body as well, withdrawing the feeling of mine"
+        },
+        {
+          "verse": "3:9",
+          "passage_preview": "Man is bound by his own action except when it is performed for the sake of sacrifice. Therefore, Arjuna, do you efficien"
+        },
+        {
+          "verse": "4:23",
+          "passage_preview": "All his actions melt away, who is free from attachment, whose mind is established in knowledge, and who performs actions"
+        },
+        {
+          "verse": "5:14",
+          "passage_preview": "God determines not the doership nor the doings of men, nor even their contact with the fruit of actions; but it is Natur"
+        },
+        {
+          "verse": "18:3",
+          "passage_preview": "Some wise men declare that all actions contain a measure of evil, and are therefore worth giving up, while others say th"
+        }
+      ]
+    },
+    {
+      "query": "What is the relationship between individual consciousness and universal consciousness?",
+      "persona": "versatile",
+      "response_time": 25.01168394088745,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 2.1756345629692078,
+      "citation_coverage": 1.0,
+      "total_claims": 6,
+      "supported_claims": 6,
+      "bleu_score": 0.0,
+      "rouge_l": 0.11594202898550725,
+      "bert_precision": 0.5303837656974792,
+      "bert_recall": 0.5799446105957031,
+      "bert_f1": 0.5540580153465271,
+      "semantic_similarity": 0.5722500681877136,
+      "contextual_relevance": 0.5064462423324585,
+      "factual_consistency": 0.5010501543680826,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.3918781876564026,
+      "overall_score": 0.6959390938282013,
+      "generated_answer": "The Bhagavad‑Gītā teaches that individual consciousness (jīva) is a limited expression of the one imperishable divine existence (Brahman), perceived through the senses, mind, and intellect, which both enable and veil this perception.  Verses 18:20 defines the undivided presence of the divine in all beings; 3:40 and 3:42 describe the hierarchical seats (senses, mind, intellect) that delude the embodied soul; 2:16 distinguishes the eternal real from the transient unreal, indicating that the true reality is the universal consciousness; and 13:6 enumerates the components of the individual field that condition this perception.  Advaita reads these passages as affirming non‑duality, Vishishtadvaita as qualified unity, and Dvaita as maintaining a distinction, but all agree on a deep relational link between the individual and universal consciousness.",
+      "retrieved_docs": [
+        "18:20",
+        "3:40",
+        "3:42",
+        "2:16",
+        "13:6"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Bhagavad‑Gītā teaches that individual consciousness (jīva) is a limited expression of the one imperishable divine existence (Brahman), perceived through the senses, mind, and intellect, which both enable and veil this perception",
+          "support_score": 2.252615451812744,
+          "supported": true,
+          "best_passage_idx": 2,
+          "best_passage_verse": "3:42",
+          "best_passage_preview": "The senses are said to be greater than the body; but greater than the senses is the mind. Greater than the mind is the i"
+        },
+        {
+          "claim": "Verses 18:20 defines the undivided presence of the divine in all beings",
+          "support_score": 0.8718749284744263,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "13:6",
+          "best_passage_preview": "The five elements, the ego, the intellect, the Unmanifest, the ten organs, the mind, and the five objects of sense;—"
+        },
+        {
+          "claim": "3:40 and 3:42 describe the hierarchical seats (senses, mind, intellect) that delude the embodied soul",
+          "support_score": 4.17962646484375,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "3:40",
+          "best_passage_preview": "The senses, mind and intellect are said to be its seat; these delude the embodied soul, covering the knowledge."
+        },
+        {
+          "claim": "2:16 distinguishes the eternal real from the transient unreal, indicating that the true reality is the universal consciousness",
+          "support_score": 1.293448567390442,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "13:6",
+          "best_passage_preview": "The five elements, the ego, the intellect, the Unmanifest, the ten organs, the mind, and the five objects of sense;—"
+        },
+        {
+          "claim": "and 13:6 enumerates the components of the individual field that condition this perception",
+          "support_score": 3.4516468048095703,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "13:6",
+          "best_passage_preview": "The five elements, the ego, the intellect, the Unmanifest, the ten organs, the mind, and the five objects of sense;—"
+        },
+        {
+          "claim": "Advaita reads these passages as affirming non‑duality, Vishishtadvaita as qualified unity, and Dvaita as maintaining a distinction, but all agree on a deep relational link between the individual and universal consciousness",
+          "support_score": 1.004595160484314,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "2:16",
+          "best_passage_preview": "The unreal has no existence, and the real never ceases to be, the reality of both has thus been perceived by the seers o"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "18:20",
+          "passage_preview": "That by which man perceives one imperishable divine existence as undivided and equally present in all individual beings,"
+        },
+        {
+          "verse": "3:40",
+          "passage_preview": "The senses, mind and intellect are said to be its seat; these delude the embodied soul, covering the knowledge."
+        },
+        {
+          "verse": "3:42",
+          "passage_preview": "The senses are said to be greater than the body; but greater than the senses is the mind. Greater than the mind is the i"
+        },
+        {
+          "verse": "2:16",
+          "passage_preview": "The unreal has no existence, and the real never ceases to be, the reality of both has thus been perceived by the seers o"
+        },
+        {
+          "verse": "13:6",
+          "passage_preview": "The five elements, the ego, the intellect, the Unmanifest, the ten organs, the mind, and the five objects of sense;—"
+        }
+      ]
+    },
+    {
+      "query": "How does Krishna explain the paradox of action in inaction?",
+      "persona": "versatile",
+      "response_time": 17.590594053268433,
+      "recall@1": 0.25,
+      "recall@3": 0.25,
+      "recall@5": 0.5,
+      "precision@1": 1.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.4,
+      "mrr": 1.0,
+      "ndcg@1": 1.0,
+      "ndcg@3": 0.46927872602275644,
+      "ndcg@5": 0.5585075862632192,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.6107842922210693,
+      "citation_coverage": 1.0,
+      "total_claims": 2,
+      "supported_claims": 2,
+      "bleu_score": 0.0,
+      "rouge_l": 0.16091954022988506,
+      "bert_precision": 0.3872752785682678,
+      "bert_recall": 0.5572333335876465,
+      "bert_f1": 0.456962913274765,
+      "semantic_similarity": 0.554375946521759,
+      "contextual_relevance": 0.8024610280990601,
+      "factual_consistency": 0.5751365621884664,
+      "ragita_score": 0.8,
+      "retrieval_f1": 0.4444444444444445,
+      "grounding_quality": 1.8702614307403564,
+      "overall_score": 1.1573529375924005,
+      "generated_answer": "Krishna explains the paradox of action in inaction by first acknowledging the confusion, then urging knowledge of both action and inaction, and finally revealing that the wise yogi perceives inaction within action and action within inaction, thus uniting external deeds with internal stillness. Practical steps include contemplation, balanced study, detached action, daily questioning, community discussion, and integrating knowledge with deeds, each grounded in the cited verses.",
+      "retrieved_docs": [
+        "4:18",
+        "3:1",
+        "4:17",
+        "4:16",
+        "3:36"
+      ],
+      "verification_details": [
+        {
+          "claim": "Krishna explains the paradox of action in inaction by first acknowledging the confusion, then urging knowledge of both action and inaction, and finally revealing that the wise yogi perceives inaction within action and action within inaction, thus uniting external deeds with internal stillness",
+          "support_score": 3.708127498626709,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "4:16",
+          "best_passage_preview": "What is action and what is inaction? Even men of intelligence are puzzled over this question. Therefore, I shall expound"
+        },
+        {
+          "claim": "Practical steps include contemplation, balanced study, detached action, daily questioning, community discussion, and integrating knowledge with deeds, each grounded in the cited verses",
+          "support_score": 3.5134410858154297,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "4:18",
+          "best_passage_preview": "He who sees inaction in action, and action in inaction, is wise among men; he is a yogi, who has performed all action."
+        }
+      ],
+      "citations": [
+        {
+          "verse": "4:18",
+          "passage_preview": "He who sees inaction in action, and action in inaction, is wise among men; he is a yogi, who has performed all action."
+        },
+        {
+          "verse": "4:17",
+          "passage_preview": "The truth about action must be known and the truth of inaction also must be known; even so the truth about prohibited …"
+        },
+        {
+          "verse": "4:16",
+          "passage_preview": "What is action and what is inaction? Even men of intelligence are puzzled over this question. Therefore, I shall expound"
+        },
+        {
+          "verse": "3:1",
+          "passage_preview": "Arjuna said: Krishna, if you consider Knowledge as superior to Action, then why do You urge me to this dreadful action,"
+        }
+      ]
+    },
+    {
+      "query": "What are the differences between the wise and the ignorant person?",
+      "persona": "versatile",
+      "response_time": 21.43434739112854,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.556050181388855,
+      "citation_coverage": 1.0,
+      "total_claims": 2,
+      "supported_claims": 2,
+      "bleu_score": 0.0,
+      "rouge_l": 0.19148936170212766,
+      "bert_precision": 0.4951193928718567,
+      "bert_recall": 0.4951193928718567,
+      "bert_f1": 0.4951193928718567,
+      "semantic_similarity": 0.5098575949668884,
+      "contextual_relevance": 0.4821754992008209,
+      "factual_consistency": 0.49902509649594623,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.8520167271296184,
+      "overall_score": 0.9260083635648092,
+      "generated_answer": "The Bhagavad‑Gita contrasts the wise and the ignorant: the wise is established in the Self, remains calm, sees Sankhya and Karma yoga as one, knows the soul’s nature, has set aside ignorance through true knowledge of God, and perceives the unity of all beings; the ignorant is attached to action, believes the yogas diverge, lacks knowledge of the soul, remains in ignorance, and sees many existences as separate.",
+      "retrieved_docs": [
+        "3:26",
+        "5:4",
+        "15:10",
+        "5:16",
+        "18:21"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Bhagavad‑Gita contrasts the wise and the ignorant: the wise is established in the Self, remains calm, sees Sankhya and Karma yoga as one, knows the soul’s nature, has set aside ignorance through true knowledge of God, and perceives the unity of all beings",
+          "support_score": 2.976766347885132,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "5:16",
+          "best_passage_preview": "In the case, however, to those whose said ignorance has been set aside by true Knowledge of god, that wisdom shining lik"
+        },
+        {
+          "claim": "the ignorant is attached to action, believes the yogas diverge, lacks knowledge of the soul, remains in ignorance, and sees many existences as separate",
+          "support_score": 4.135334014892578,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "5:16",
+          "best_passage_preview": "In the case, however, to those whose said ignorance has been set aside by true Knowledge of god, that wisdom shining lik"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "3:26",
+          "passage_preview": "A wise man established in the Self, should not unsettle the mind of the ignorant attached to action, but should perform"
+        },
+        {
+          "verse": "5:4",
+          "passage_preview": "It is the ignorant, not the wise, who say that Sankhyayoga and Karmayoga lead to divergent results. For one who is firml"
+        },
+        {
+          "verse": "15:10",
+          "passage_preview": "The ignorant know not the soul departing from or dwelling in the body, or enjoying the objects of senses"
+        },
+        {
+          "verse": "5:16",
+          "passage_preview": "In the case, however, to those whose said ignorance has been set aside by true Knowledge of god, that wisdom shining lik"
+        },
+        {
+          "verse": "18:21",
+          "passage_preview": "That, however, by which man cognize many existences of various kinds as apart from one another in all beings, know that"
+        }
+      ]
+    },
+    {
+      "query": "Compare the path of knowledge with the path of devotion",
+      "persona": "versatile",
+      "response_time": 19.0998375415802,
+      "recall@1": 0.0,
+      "recall@3": 0.25,
+      "recall@5": 0.25,
+      "precision@1": 0.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "mrr": 0.5,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.2960819109658652,
+      "ndcg@5": 0.24630238874073,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.093577226003011,
+      "citation_coverage": 1.0,
+      "total_claims": 3,
+      "supported_claims": 3,
+      "bleu_score": 0.037596147042531565,
+      "rouge_l": 0.1639344262295082,
+      "bert_precision": 0.5466821193695068,
+      "bert_recall": 0.5945881009101868,
+      "bert_f1": 0.5696296691894531,
+      "semantic_similarity": 0.6302705407142639,
+      "contextual_relevance": 0.6179311275482178,
+      "factual_consistency": 0.5734331210454305,
+      "ragita_score": 0.7,
+      "retrieval_f1": 0.22222222222222224,
+      "grounding_quality": 1.6978590753343372,
+      "overall_score": 0.9600406487782798,
+      "generated_answer": "The Gītā teaches that the path of knowledge (jñāna‑yoga) seeks fixed self‑knowledge and seeing God as the true object of wisdom, while the path of devotion (bhakti‑yoga) rests on faithful love and surrender. Both paths confront desire, the insatiable fire that obscures understanding, and both ultimately lead to the same supreme realization. By cultivating devotion and self‑control, meditating on the Divine, studying the Self, renouncing attachment to results, observing desire as fire, and integrating study with prayer, a seeker can harmonize knowledge and devotion and attain the supreme peace described in the scripture.",
+      "retrieved_docs": [
+        "4:39",
+        "12:12",
+        "13:19",
+        "13:12",
+        "3:39"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Gītā teaches that the path of knowledge (jñāna‑yoga) seeks fixed self‑knowledge and seeing God as the true object of wisdom, while the path of devotion (bhakti‑yoga) rests on faithful love and surrender",
+          "support_score": 3.484036445617676,
+          "supported": true,
+          "best_passage_idx": 0,
+          "best_passage_verse": "4:39",
+          "best_passage_preview": "The faithful, the devoted, and the self-controlled attain knowledge; having obtained knowledge, they soon reach supreme "
+        },
+        {
+          "claim": "Both paths confront desire, the insatiable fire that obscures understanding, and both ultimately lead to the same supreme realization",
+          "support_score": 2.9425134658813477,
+          "supported": true,
+          "best_passage_idx": 2,
+          "best_passage_verse": "13:19",
+          "best_passage_preview": "Thus the truth of the Ksetra and knowledge, as well as of the object worth knowing, God has been briefly discussed; know"
+        },
+        {
+          "claim": "By cultivating devotion and self‑control, meditating on the Divine, studying the Self, renouncing attachment to results, observing desire as fire, and integrating study with prayer, a seeker can harmonize knowledge and devotion and attain the supreme peace described in the scripture",
+          "support_score": 2.8541817665100098,
+          "supported": true,
+          "best_passage_idx": 2,
+          "best_passage_verse": "13:19",
+          "best_passage_preview": "Thus the truth of the Ksetra and knowledge, as well as of the object worth knowing, God has been briefly discussed; know"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "4:39",
+          "passage_preview": "The faithful, the devoted, and the self‑controlled attain knowledge; having obtained knowledge, they soon reach supreme"
+        },
+        {
+          "verse": "12:12",
+          "passage_preview": "Knowledge is better than practice, meditation on God is superior to knowledge, and renunciation of the fruit of actions"
+        },
+        {
+          "verse": "13:12",
+          "passage_preview": "Fixity in self‑knowledge and seeing God as the object of true knowledge, all this is declared as knowledge"
+        },
+        {
+          "verse": "3:39",
+          "passage_preview": "And, Arjuna, Knowledge stand covered by this eternal enemy of the wise, known as desire, which is insatiable like fire."
+        }
+      ]
+    },
+    {
+      "query": "How can the teachings of the Gita help in modern workplace challenges?",
+      "persona": "versatile",
+      "response_time": 21.14627981185913,
+      "recall@1": 0.0,
+      "recall@3": 0.25,
+      "recall@5": 0.25,
+      "precision@1": 0.0,
+      "precision@3": 0.3333333333333333,
+      "precision@5": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.23463936301137822,
+      "ndcg@5": 0.19519002499605084,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 4.075327396392822,
+      "citation_coverage": 1.0,
+      "total_claims": 2,
+      "supported_claims": 2,
+      "bleu_score": 0.0,
+      "rouge_l": 0.1142857142857143,
+      "bert_precision": 0.4931304454803467,
+      "bert_recall": 0.50728440284729,
+      "bert_f1": 0.5001072883605957,
+      "semantic_similarity": 0.5606017112731934,
+      "contextual_relevance": 0.731404185295105,
+      "factual_consistency": 0.4471982518831889,
+      "ragita_score": 0.7,
+      "retrieval_f1": 0.22222222222222224,
+      "grounding_quality": 2.025109132130941,
+      "overall_score": 1.1236656771765816,
+      "generated_answer": "The Bhagavad‑Gītā offers practical guidance for modern workplace challenges by teaching detached action, equanimity, disciplined study, awareness of attachment, disciplined example, and a warrior mindset. Applying verses 3:19, 2:38, 18:70, 12:5, 18:67, and the implied message of 2:38 provides actionable steps to reduce stress, improve performance, and foster a harmonious work culture.",
+      "retrieved_docs": [
+        "18:67",
+        "18:70",
+        "3:19",
+        "2:38",
+        "12:5"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Bhagavad‑Gītā offers practical guidance for modern workplace challenges by teaching detached action, equanimity, disciplined study, awareness of attachment, disciplined example, and a warrior mindset",
+          "support_score": 4.174229621887207,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "12:5",
+          "best_passage_preview": "Of course, the strain is greater for those who have their mind attached to the Unmanifest; for atonement with the Unmani"
+        },
+        {
+          "claim": "Applying verses 3:19, 2:38, 18:70, 12:5, 18:67, and the implied message of 2:38 provides actionable steps to reduce stress, improve performance, and foster a harmonious work culture",
+          "support_score": 3.9764251708984375,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "12:5",
+          "best_passage_preview": "Of course, the strain is greater for those who have their mind attached to the Unmanifest; for atonement with the Unmani"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "3:19",
+          "passage_preview": "Therefore, go on efficiently doing your duty without attachment. Doing work without attachment man attains the Supreme."
+        },
+        {
+          "verse": "2:38",
+          "passage_preview": "Treating alike victory and defeat, gain and loss, pleasure and pain, get ready for the fight, then; fighting thus you wi..."
+        },
+        {
+          "verse": "18:70",
+          "passage_preview": "Whosoever studies this sacred dialogue of ours in the form of the Gita, by him too shall I be worshipped through the sac..."
+        },
+        {
+          "verse": "12:5",
+          "passage_preview": "Of course, the strain is greater for those who have their mind attached to the Unmanifest; for atonement with the Unmani..."
+        },
+        {
+          "verse": "18:67",
+          "passage_preview": "This secret gospel of the Gita should never be imparted to a man who lacks penance, nor to him who is wanting in devotio..."
+        }
+      ]
+    },
+    {
+      "query": "What guidance does Krishna offer for maintaining relationships?",
+      "persona": "versatile",
+      "response_time": 21.932960510253906,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.0075695514678955,
+      "citation_coverage": 1.0,
+      "total_claims": 1,
+      "supported_claims": 1,
+      "bleu_score": 0.0,
+      "rouge_l": 0.07547169811320754,
+      "bert_precision": 0.5280482769012451,
+      "bert_recall": 0.5280482769012451,
+      "bert_f1": 0.5280482769012451,
+      "semantic_similarity": 0.5217514634132385,
+      "contextual_relevance": 0.8540189266204834,
+      "factual_consistency": 0.49800528089205426,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.6691898504892986,
+      "overall_score": 0.8345949252446493,
+      "generated_answer": "Krishna’s guidance for relationships centers on calming the restless mind, subduing passions, anchoring thoughts to higher values, practicing self‑control, honoring duty, and cultivating disciplined peace, all of which create a stable inner foundation for loving, compassionate connections.",
+      "retrieved_docs": [
+        "6:37",
+        "6:34",
+        "6:15",
+        "2:60",
+        "18:42"
+      ],
+      "verification_details": [
+        {
+          "claim": "Krishna’s guidance for relationships centers on calming the restless mind, subduing passions, anchoring thoughts to higher values, practicing self‑control, honoring duty, and cultivating disciplined peace, all of which create a stable inner foundation for loving, compassionate connections",
+          "support_score": 3.0075695514678955,
+          "supported": true,
+          "best_passage_idx": 2,
+          "best_passage_verse": "6:15",
+          "best_passage_preview": "Thus constantly applying his mind to Me, the Yogi of disciplined mind attains the everlasting peace, consisting of supre"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "6:34",
+          "passage_preview": "For Krishna, the mind is very unsteady, turbulent, tenacious and powerful therefore, I consider it as difficult to contr"
+        },
+        {
+          "verse": "6:37",
+          "passage_preview": "Arjuna said: Krishna, what becomes of the soul who, though endowed with faith, has not been able to subdue his passions,"
+        },
+        {
+          "verse": "6:15",
+          "passage_preview": "Thus constantly applying his mind to Me, the Yogi of disciplined mind attains the everlasting peace, consisting of supre"
+        },
+        {
+          "verse": "2:60",
+          "passage_preview": "Turbulent by nature, the senses even of a wise man, who is practising self-control, forcibly carry away his mind, Arjuna"
+        },
+        {
+          "verse": "18:42",
+          "passage_preview": "Subjugation of the mind and senses, enduring hardships for the discharge of one’s sacred obligations, external and inter"
+        }
+      ]
+    },
+    {
+      "query": "Reconcile Krishna's teaching on non-violence with his advice to Arjuna to fight",
+      "persona": "versatile",
+      "response_time": 23.653905868530273,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 2.383474200963974,
+      "citation_coverage": 1.0,
+      "total_claims": 4,
+      "supported_claims": 4,
+      "bleu_score": 0.0,
+      "rouge_l": 0.058823529411764705,
+      "bert_precision": 0.46279680728912354,
+      "bert_recall": 0.5698351263999939,
+      "bert_f1": 0.510768473148346,
+      "semantic_similarity": 0.572411298751831,
+      "contextual_relevance": 0.7562304735183716,
+      "factual_consistency": 0.6349521478017172,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.4611580669879913,
+      "overall_score": 0.7305790334939957,
+      "generated_answer": "Krishna’s guidance to Arjuna reconciles non‑violence with duty by urging action performed with detachment, devotion, and a higher purpose. Arjuna’s hesitation shows natural compassion ([2:9], [2:4]), while Krishna’s counsel to fight with a focused mind ([8:7]) teaches that righteous duty, when free of selfish attachment, aligns with the spirit of non‑violence. Balancing knowledge and action ([3:1]) and subduing inner passions ([6:37]) further integrates inner peace with outward responsibility. Practical steps include clarifying dharma, meditative anchoring, daily study‑application, reflective de‑attachment, and purposeful decision‑making.",
+      "retrieved_docs": [
+        "2:9",
+        "2:4",
+        "3:1",
+        "8:7",
+        "6:37"
+      ],
+      "verification_details": [
+        {
+          "claim": "Krishna’s guidance to Arjuna reconciles non‑violence with duty by urging action performed with detachment, devotion, and a higher purpose",
+          "support_score": 2.895519733428955,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "2:4",
+          "best_passage_preview": "Arjuna said: How, Krishna, shall I fightBhishma and Drona with arrows on the battlefield? They are worthy of deepest rev"
+        },
+        {
+          "claim": "Arjuna’s hesitation shows natural compassion ([2:9], [2:4]), while Krishna’s counsel to fight with a focused mind ([8:7]) teaches that righteous duty, when free of selfish attachment, aligns with the spirit of non‑violence",
+          "support_score": 2.681701898574829,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "2:4",
+          "best_passage_preview": "Arjuna said: How, Krishna, shall I fightBhishma and Drona with arrows on the battlefield? They are worthy of deepest rev"
+        },
+        {
+          "claim": "Balancing knowledge and action ([3:1]) and subduing inner passions ([6:37]) further integrates inner peace with outward responsibility",
+          "support_score": 1.5153354406356812,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "8:7",
+          "best_passage_preview": "Therefore, Arjuna, at all times remember Me and fight. With your mind and intellect dedicated to Me, you will surely com"
+        },
+        {
+          "claim": "Practical steps include clarifying dharma, meditative anchoring, daily study‑application, reflective de‑attachment, and purposeful decision‑making",
+          "support_score": 2.4413397312164307,
+          "supported": true,
+          "best_passage_idx": 3,
+          "best_passage_verse": "8:7",
+          "best_passage_preview": "Therefore, Arjuna, at all times remember Me and fight. With your mind and intellect dedicated to Me, you will surely com"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "2:9",
+          "passage_preview": "Arjuna again said … ‘I will not fight,’ and became silent"
+        },
+        {
+          "verse": "2:4",
+          "passage_preview": "How, Krishna, shall I fight Bhishma and Drona … they are worthy of deepest reverence"
+        },
+        {
+          "verse": "3:1",
+          "passage_preview": "Krishna, if you consider Knowledge as superior to Action, then why do You urge me to this dreadful action"
+        },
+        {
+          "verse": "8:7",
+          "passage_preview": "Therefore, Arjuna, at all times remember Me and fight. With your mind and intellect dedicated to Me"
+        },
+        {
+          "verse": "6:37",
+          "passage_preview": "Arjuna, what becomes of the soul who, though endowed with faith, has not been able to subdue his passions"
+        }
+      ]
+    },
+    {
+      "query": "How does the Gita address the problem of evil and suffering in the world?",
+      "persona": "versatile",
+      "response_time": 21.50922679901123,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.946397304534912,
+      "citation_coverage": 1.0,
+      "total_claims": 2,
+      "supported_claims": 2,
+      "bleu_score": 0.0,
+      "rouge_l": 0.15384615384615385,
+      "bert_precision": 0.49705106019973755,
+      "bert_recall": 0.48201560974121094,
+      "bert_f1": 0.4894178807735443,
+      "semantic_similarity": 0.544757604598999,
+      "contextual_relevance": 0.7100067138671875,
+      "factual_consistency": 0.4910556773344676,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.9821324348449707,
+      "overall_score": 0.9910662174224854,
+      "generated_answer": "The Gītā addresses evil and suffering by first requiring penance and devotion, acknowledging the reality of evil, urging higher‑mind reasoning and purposeful action, accepting destruction as part of the divine order, and detaching from the unmanifest through atonement. These insights lead to concrete practices: cultivate penance, acknowledge suffering, develop higher reasoning, meditate on impermanence, and practice detachment with atonement.",
+      "retrieved_docs": [
+        "18:67",
+        "1:31",
+        "3:43",
+        "11:32",
+        "12:5"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Gītā addresses evil and suffering by first requiring penance and devotion, acknowledging the reality of evil, urging higher‑mind reasoning and purposeful action, accepting destruction as part of the divine order, and detaching from the unmanifest through atonement",
+          "support_score": 3.861639976501465,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "12:5",
+          "best_passage_preview": "Of course, the strain is greater for those who have their mind attached to the Unmanifest; for atonement with the Unmani"
+        },
+        {
+          "claim": "These insights lead to concrete practices: cultivate penance, acknowledge suffering, develop higher reasoning, meditate on impermanence, and practice detachment with atonement",
+          "support_score": 4.031154632568359,
+          "supported": true,
+          "best_passage_idx": 4,
+          "best_passage_verse": "12:5",
+          "best_passage_preview": "Of course, the strain is greater for those who have their mind attached to the Unmanifest; for atonement with the Unmani"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "18:67",
+          "passage_preview": "This secret gospel of the Gita should never be imparted to a man who lacks penance, nor to him who is wanting in devotion"
+        },
+        {
+          "verse": "1:31",
+          "passage_preview": "And, Keshava, I see such omens of evil, nor do I see any good in killing my kinsmen in battle"
+        },
+        {
+          "verse": "3:43",
+          "passage_preview": "Thus, Arjuna, knowing that which is higher than the intellect and subduing the mind by reason, kill this enemy"
+        },
+        {
+          "verse": "11:32",
+          "passage_preview": "Shree Bhagavan said: I am inflamed Kala, the destroyer of the worlds. I am out to exterminate these people"
+        },
+        {
+          "verse": "12:5",
+          "passage_preview": "the strain is greater for those who have their mind attached to the Unmanifest; for atonement with the Unmani"
+        }
+      ]
+    },
+    {
+      "query": "Explain the ultimate teaching of the Gita in one comprehensive statement",
+      "persona": "versatile",
+      "response_time": 22.864437103271484,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "precision@1": 0.0,
+      "precision@3": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "ndcg@1": 0.0,
+      "ndcg@3": 0.0,
+      "ndcg@5": 0.0,
+      "grounding_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "mean_support_score": 3.072577476501465,
+      "citation_coverage": 1.0,
+      "total_claims": 1,
+      "supported_claims": 1,
+      "bleu_score": 0.0,
+      "rouge_l": 0.14285714285714285,
+      "bert_precision": 0.5073106288909912,
+      "bert_recall": 0.5073106288909912,
+      "bert_f1": 0.5073106288909912,
+      "semantic_similarity": 0.48481929302215576,
+      "contextual_relevance": 0.5997339487075806,
+      "factual_consistency": 0.5733969608942667,
+      "ragita_score": 0.6,
+      "retrieval_f1": 0.0,
+      "grounding_quality": 1.6908591588338215,
+      "overall_score": 0.8454295794169108,
+      "generated_answer": "The Bhagavad‑Gītā teaches that by approaching its secret, esoteric wisdom with sincere penance and devotion, a seeker gains true wisdom, performs the highest sacrifice—knowledge—transcends the illusion of identifying the body as the whole self, and thereby worships the Divine through the very study of the dialogue.",
+      "retrieved_docs": [
+        "18:67",
+        "18:70",
+        "15:20",
+        "18:22",
+        "4:33"
+      ],
+      "verification_details": [
+        {
+          "claim": "The Bhagavad‑Gītā teaches that by approaching its secret, esoteric wisdom with sincere penance and devotion, a seeker gains true wisdom, performs the highest sacrifice—knowledge—transcends the illusion of identifying the body as the whole self, and thereby worships the Divine through the very study of the dialogue",
+          "support_score": 3.072577476501465,
+          "supported": true,
+          "best_passage_idx": 1,
+          "best_passage_verse": "18:70",
+          "best_passage_preview": "Whosoever studies this sacred dialogue of ours in the form of the Gita, by him too shall I be worshipped through the sac"
+        }
+      ],
+      "citations": [
+        {
+          "verse": "18:67",
+          "passage_preview": "This secret gospel of the Gita should never be imparted to a man who lacks penance..."
+        },
+        {
+          "verse": "18:70",
+          "passage_preview": "Whosoever studies this sacred dialogue of ours in the form of the Gita..."
+        },
+        {
+          "verse": "15:20",
+          "passage_preview": "Arjuna, this most esoteric teaching has thus been imparted by Me..."
+        },
+        {
+          "verse": "4:33",
+          "passage_preview": "Arjuna, sacrifice through Knowledge is superior to sacrifice performed..."
+        },
+        {
+          "verse": "18:22",
+          "passage_preview": "Again, that knowledge which clings to one body as if it were the whole..."
+        }
+      ]
+    }
+  ],
+  "test_data": [
+    {
+      "query": "What is the Bhagavad Gita about? How many verses are there?",
+      "category": "factual",
+      "ground_truth": {
+        "relevant_docs": [
+          "1:1",
+          "18:78",
+          "2:11",
+          "2:12"
+        ],
+        "gold_answer": "The Bhagavad Gita is a 700-verse Hindu scripture presenting philosophical dialogue between Arjuna and Krishna on duty, righteousness, and spiritual realization."
+      }
+    },
+    {
+      "query": "Who are the main characters in the Bhagavad Gita?",
+      "category": "factual",
+      "ground_truth": {
+        "relevant_docs": [
+          "1:1",
+          "1:15",
+          "1:20",
+          "2:1"
+        ],
+        "gold_answer": "The main characters are Prince Arjuna, Lord Krishna (his charioteer and guide), and Sanjaya who narrates the dialogue to King Dhritarashtra."
+      }
+    },
+    {
+      "query": "What are the three gunas mentioned in the Gita?",
+      "category": "factual",
+      "ground_truth": {
+        "relevant_docs": [
+          "14:5",
+          "14:6",
+          "14:7",
+          "14:8",
+          "18:40"
+        ],
+        "gold_answer": "The three gunas are sattva (goodness), rajas (passion), and tamas (ignorance), which are the fundamental qualities of nature."
+      }
+    },
+    {
+      "query": "What is the significance of the battlefield of Kurukshetra?",
+      "category": "factual",
+      "ground_truth": {
+        "relevant_docs": [
+          "1:1",
+          "1:2",
+          "2:4",
+          "2:5"
+        ],
+        "gold_answer": "Kurukshetra is the sacred battlefield where the dialogue takes place, representing the field of righteousness and moral conflict."
+      }
+    },
+    {
+      "query": "What is the nature of the soul according to Krishna?",
+      "category": "philosophical",
+      "ground_truth": {
+        "relevant_docs": [
+          "2:11",
+          "2:12",
+          "2:13",
+          "2:20",
+          "2:23"
+        ],
+        "gold_answer": "The soul is eternal, indestructible, unborn, and unchanging. It transmigrates from body to body but is never actually born or dies."
+      }
+    },
+    {
+      "query": "What does Krishna teach about the nature of reality?",
+      "category": "philosophical",
+      "ground_truth": {
+        "relevant_docs": [
+          "7:4",
+          "7:5",
+          "9:4",
+          "9:5",
+          "15:7"
+        ],
+        "gold_answer": "Reality consists of both material nature (prakriti) and spiritual nature (purusha), with Krishna as the ultimate source of both."
+      }
+    },
+    {
+      "query": "What is the relationship between action and inaction?",
+      "category": "philosophical",
+      "ground_truth": {
+        "relevant_docs": [
+          "4:16",
+          "4:17",
+          "4:18",
+          "3:4",
+          "3:8"
+        ],
+        "gold_answer": "True action is performed without attachment, while inaction in duty leads to degradation. The wise see inaction in action and action in inaction."
+      }
+    },
+    {
+      "query": "What is Maya according to the Bhagavad Gita?",
+      "category": "philosophical",
+      "ground_truth": {
+        "relevant_docs": [
+          "7:14",
+          "7:25",
+          "18:61"
+        ],
+        "gold_answer": "Maya is the divine illusory power that conceals the true nature of reality and causes beings to identify with the material world."
+      }
+    },
+    {
+      "query": "How can I control my thoughts and find inner peace?",
+      "category": "practical",
+      "ground_truth": {
+        "relevant_docs": [
+          "2:62",
+          "2:63",
+          "6:5",
+          "6:6",
+          "6:19",
+          "6:35"
+        ],
+        "gold_answer": "Control thoughts through disciplined practice, meditation, detachment from sense objects, and focusing the mind on the divine."
+      }
+    },
+    {
+      "query": "How should I deal with difficult people in my life?",
+      "category": "practical",
+      "ground_truth": {
+        "relevant_docs": [
+          "12:13",
+          "12:14",
+          "16:1",
+          "16:2",
+          "16:3"
+        ],
+        "gold_answer": "Practice compassion, patience, forgiveness, and maintain equanimity while protecting your own dharma and well-being."
+      }
+    },
+    {
+      "query": "What is the best way to handle failure and success?",
+      "category": "practical",
+      "ground_truth": {
+        "relevant_docs": [
+          "2:47",
+          "2:48",
+          "2:57",
+          "12:17"
+        ],
+        "gold_answer": "Remain equanimous in both success and failure, focusing on duty rather than results, and maintaining balance in all circumstances."
+      }
+    },
+    {
+      "query": "How can I overcome fear and anxiety?",
+      "category": "practical",
+      "ground_truth": {
+        "relevant_docs": [
+          "4:10",
+          "11:50",
+          "18:58",
+          "7:1"
+        ],
+        "gold_answer": "Overcome fear through surrender to the divine, understanding the eternal nature of the soul, and cultivating unwavering faith."
+      }
+    },
+    {
+      "query": "How should I make important life decisions?",
+      "category": "practical",
+      "ground_truth": {
+        "relevant_docs": [
+          "18:31",
+          "18:32",
+          "3:35",
+          "18:47"
+        ],
+        "gold_answer": "Make decisions using discriminative intelligence, following your dharma, consulting scriptures and wise teachers, and acting without attachment."
+      }
+    },
+    {
+      "query": "What are the different paths to spiritual realization?",
+      "category": "spiritual",
+      "ground_truth": {
+        "relevant_docs": [
+          "3:3",
+          "4:11",
+          "7:16",
+          "12:8",
+          "12:9"
+        ],
+        "gold_answer": "The main paths are karma yoga (action), jnana yoga (knowledge), bhakti yoga (devotion), and dhyana yoga (meditation)."
+      }
+    },
+    {
+      "query": "How can I develop devotion to God?",
+      "category": "spiritual",
+      "ground_truth": {
+        "relevant_docs": [
+          "9:26",
+          "9:27",
+          "12:8",
+          "12:10",
+          "18:65"
+        ],
+        "gold_answer": "Develop devotion through constant remembrance, offering all actions to God, regular worship, and surrendering the ego."
+      }
+    },
+    {
+      "query": "What is the goal of meditation according to Krishna?",
+      "category": "spiritual",
+      "ground_truth": {
+        "relevant_docs": [
+          "6:15",
+          "6:20",
+          "6:21",
+          "6:27",
+          "8:12"
+        ],
+        "gold_answer": "The goal is to achieve union with the divine, experience supreme peace, and realize one's true nature beyond material identification."
+      }
+    },
+    {
+      "query": "How can I surrender to God completely?",
+      "category": "spiritual",
+      "ground_truth": {
+        "relevant_docs": [
+          "18:66",
+          "9:34",
+          "11:55",
+          "12:6",
+          "12:7"
+        ],
+        "gold_answer": "Surrender by offering all actions to God, abandoning ego and desires, maintaining constant devotion, and trusting in divine grace."
+      }
+    },
+    {
+      "query": "What does Krishna say about duty and righteousness?",
+      "category": "ethical",
+      "ground_truth": {
+        "relevant_docs": [
+          "2:31",
+          "3:35",
+          "18:47",
+          "4:7",
+          "4:8"
+        ],
+        "gold_answer": "One should perform their prescribed duty according to their nature and position, upholding righteousness and protecting dharma."
+      }
+    },
+    {
+      "query": "How should I handle moral dilemmas?",
+      "category": "ethical",
+      "ground_truth": {
+        "relevant_docs": [
+          "2:7",
+          "3:2",
+          "18:31",
+          "18:32"
+        ],
+        "gold_answer": "Seek guidance from scriptures and wise teachers, use discriminative intelligence, and choose actions that uphold universal principles."
+      }
+    },
+    {
+      "query": "What is the difference between right and wrong action?",
+      "category": "ethical",
+      "ground_truth": {
+        "relevant_docs": [
+          "16:23",
+          "16:24",
+          "17:11",
+          "17:12",
+          "18:23"
+        ],
+        "gold_answer": "Right action follows scriptural guidelines, promotes universal welfare, and is performed with proper attitude and knowledge."
+      }
+    },
+    {
+      "query": "Explain the concept of karma and its relationship to free will",
+      "category": "complex",
+      "ground_truth": {
+        "relevant_docs": [
+          "4:14",
+          "4:17",
+          "8:3",
+          "9:9",
+          "15:8"
+        ],
+        "gold_answer": "Karma is the law of cause and effect in action. While bound by past karma, beings have free will to choose current actions and shape future destiny."
+      }
+    },
+    {
+      "query": "What is the relationship between individual consciousness and universal consciousness?",
+      "category": "complex",
+      "ground_truth": {
+        "relevant_docs": [
+          "13:2",
+          "15:7",
+          "7:5",
+          "10:20"
+        ],
+        "gold_answer": "Individual consciousness is a fragment of universal consciousness, temporarily embodied but eternally connected to the supreme source."
+      }
+    },
+    {
+      "query": "How does Krishna explain the paradox of action in inaction?",
+      "category": "complex",
+      "ground_truth": {
+        "relevant_docs": [
+          "4:16",
+          "4:18",
+          "4:19",
+          "4:20"
+        ],
+        "gold_answer": "The wise see inaction in action when acting without ego or attachment, and action in inaction when remaining inactive in duty."
+      }
+    },
+    {
+      "query": "What are the differences between the wise and the ignorant person?",
+      "category": "comparative",
+      "ground_truth": {
+        "relevant_docs": [
+          "2:54",
+          "2:55",
+          "2:56",
+          "5:20",
+          "14:22"
+        ],
+        "gold_answer": "The wise remain equanimous in pleasure and pain, act without attachment, and see the divine in all, while the ignorant are driven by desires and reactions."
+      }
+    },
+    {
+      "query": "Compare the path of knowledge with the path of devotion",
+      "category": "comparative",
+      "ground_truth": {
+        "relevant_docs": [
+          "12:1",
+          "12:5",
+          "12:8",
+          "12:12"
+        ],
+        "gold_answer": "Both paths lead to the same goal; knowledge suits those capable of meditation on the formless, while devotion is easier for most people through worship of the personal form."
+      }
+    },
+    {
+      "query": "How can the teachings of the Gita help in modern workplace challenges?",
+      "category": "applied",
+      "ground_truth": {
+        "relevant_docs": [
+          "2:47",
+          "3:19",
+          "18:45",
+          "18:46"
+        ],
+        "gold_answer": "Apply principles of dutiful action without attachment to results, maintaining integrity, serving others, and seeing work as worship."
+      }
+    },
+    {
+      "query": "What guidance does Krishna offer for maintaining relationships?",
+      "category": "applied",
+      "ground_truth": {
+        "relevant_docs": [
+          "12:13",
+          "12:14",
+          "12:15",
+          "16:1",
+          "16:2"
+        ],
+        "gold_answer": "Practice compassion, patience, forgiveness, truthfulness, and see the divine in all beings while maintaining appropriate boundaries."
+      }
+    },
+    {
+      "query": "Reconcile Krishna's teaching on non-violence with his advice to Arjuna to fight",
+      "category": "advanced",
+      "ground_truth": {
+        "relevant_docs": [
+          "2:31",
+          "2:32",
+          "4:7",
+          "4:8",
+          "11:32"
+        ],
+        "gold_answer": "Violence in protection of dharma and righteousness, performed as duty without personal hatred, differs from violence driven by selfish desires."
+      }
+    },
+    {
+      "query": "How does the Gita address the problem of evil and suffering in the world?",
+      "category": "advanced",
+      "ground_truth": {
+        "relevant_docs": [
+          "4:7",
+          "4:8",
+          "7:12",
+          "16:19",
+          "16:20"
+        ],
+        "gold_answer": "Evil arises from ignorance and imbalance of gunas. Divine incarnates periodically to restore dharma and guide beings toward righteousness."
+      }
+    },
+    {
+      "query": "Explain the ultimate teaching of the Gita in one comprehensive statement",
+      "category": "synthesis",
+      "ground_truth": {
+        "relevant_docs": [
+          "18:65",
+          "18:66",
+          "9:34",
+          "11:55"
+        ],
+        "gold_answer": "Surrender completely to Krishna, perform all duties as offerings to the divine, and realize your eternal relationship with the Supreme through love and devotion."
+      }
+    }
+  ],
+  "statistical_analysis": {
+    "sample_size": 30,
+    "statistical_power": "High",
+    "metrics_analysis": {
+      "grounding_accuracy": {
+        "mean": 1.0,
+        "confidence_interval_95": "(1.0, 1.0)",
+        "consistency": {
+          "mean": 1.0,
+          "std_dev": 0.0,
+          "coefficient_of_variation": 0.0,
+          "min_score": 1.0,
+          "max_score": 1.0,
+          "range": 0.0
+        },
+        "performance_level": "Excellent"
+      },
+      "citation_coverage": {
+        "mean": 0.9588235294117647,
+        "confidence_interval_95": "(0.8967084099334308, 1.0209386488900987)",
+        "consistency": {
+          "mean": 0.9588235294117647,
+          "std_dev": 0.170663344594734,
+          "coefficient_of_variation": 0.1779924452828514,
+          "min_score": 0.09803921568627451,
+          "max_score": 1.0,
+          "range": 0.9019607843137255
+        },
+        "performance_level": "Excellent"
+      },
+      "mean_support_score": {
+        "mean": 3.3651356850316123,
+        "confidence_interval_95": "(3.149181821967037, 3.5810895480961875)",
+        "consistency": {
+          "mean": 3.3651356850316123,
+          "std_dev": 0.5933403792551507,
+          "coefficient_of_variation": 0.17631989755847743,
+          "min_score": 2.1756345629692078,
+          "max_score": 4.379748106002808,
+          "range": 2.2041135430336
+        },
+        "performance_level": "Excellent"
+      },
+      "bert_f1": {
+        "mean": 0.528026619553566,
+        "confidence_interval_95": "(0.4914520864902913, 0.5646011526168407)",
+        "consistency": {
+          "mean": 0.528026619553566,
+          "std_dev": 0.10048973892332871,
+          "coefficient_of_variation": 0.19031188050384734,
+          "min_score": 0.1295013427734375,
+          "max_score": 0.700167179107666,
+          "range": 0.5706658363342285
+        },
+        "performance_level": "Poor"
+      },
+      "contextual_relevance": {
+        "mean": 0.63852718770504,
+        "confidence_interval_95": "(0.5845705919351889, 0.6924837834748911)",
+        "consistency": {
+          "mean": 0.63852718770504,
+          "std_dev": 0.14824753094519613,
+          "coefficient_of_variation": 0.23217105520286366,
+          "min_score": 0.252815842628479,
+          "max_score": 0.8621987104415894,
+          "range": 0.6093828678131104
+        },
+        "performance_level": "Needs Improvement"
+      },
+      "response_time": {
+        "mean": 18.32635129292806,
+        "confidence_interval_95": "(15.356855777210978, 21.29584680864514)",
+        "consistency": {
+          "mean": 18.32635129292806,
+          "std_dev": 8.15878711539967,
+          "coefficient_of_variation": 0.44519429890815515,
+          "min_score": 4.97000527381897,
+          "max_score": 46.33775210380554,
+          "range": 41.36774682998657
+        },
+        "performance_level": "Poor"
+      }
+    },
+    "category_analysis": {
+      "factual": {
+        "grounding_accuracy": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 4
+        },
+        "citation_coverage": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 4
+        },
+        "response_time": {
+          "mean": 7.655160188674927,
+          "confidence_interval": "(6.363765729687781, 8.946554647662072)",
+          "n": 4
+        }
+      },
+      "philosophical": {
+        "grounding_accuracy": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 4
+        },
+        "citation_coverage": {
+          "mean": 0.9166666666666666,
+          "confidence_interval": "(0.7206666666666666, 1.1126666666666667)",
+          "n": 4
+        },
+        "response_time": {
+          "mean": 12.518771767616272,
+          "confidence_interval": "(5.100964443924979, 19.936579091307564)",
+          "n": 4
+        }
+      },
+      "practical": {
+        "grounding_accuracy": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 5
+        },
+        "citation_coverage": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 5
+        },
+        "response_time": {
+          "mean": 21.07673873901367,
+          "confidence_interval": "(18.42676819236026, 23.72670928566708)",
+          "n": 5
+        }
+      },
+      "spiritual": {
+        "grounding_accuracy": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 4
+        },
+        "citation_coverage": {
+          "mean": 0.7745098039215687,
+          "confidence_interval": "(0.24415686274509807, 1.3048627450980392)",
+          "n": 4
+        },
+        "response_time": {
+          "mean": 20.910433769226074,
+          "confidence_interval": "(-0.6669226932061427, 42.487790231658295)",
+          "n": 4
+        }
+      },
+      "ethical": {
+        "grounding_accuracy": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 3
+        },
+        "citation_coverage": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 3
+        },
+        "response_time": {
+          "mean": 21.455971320470173,
+          "confidence_interval": "(18.582375404074043, 24.329567236866303)",
+          "n": 3
+        }
+      },
+      "complex": {
+        "grounding_accuracy": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 3
+        },
+        "citation_coverage": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 3
+        },
+        "response_time": {
+          "mean": 21.353491067886353,
+          "confidence_interval": "(16.313334517086492, 26.393647618686213)",
+          "n": 3
+        }
+      },
+      "comparative": {
+        "grounding_accuracy": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 2
+        },
+        "citation_coverage": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 2
+        },
+        "response_time": {
+          "mean": 20.26709246635437,
+          "confidence_interval": "(17.521708883285523, 23.012476049423217)",
+          "n": 2
+        }
+      },
+      "applied": {
+        "grounding_accuracy": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 2
+        },
+        "citation_coverage": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 2
+        },
+        "response_time": {
+          "mean": 21.53962016105652,
+          "confidence_interval": "(20.614483659744263, 22.464756662368774)",
+          "n": 2
+        }
+      },
+      "advanced": {
+        "grounding_accuracy": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 2
+        },
+        "citation_coverage": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 2
+        },
+        "response_time": {
+          "mean": 22.581566333770752,
+          "confidence_interval": "(20.059423748016357, 25.103708919525147)",
+          "n": 2
+        }
+      },
+      "synthesis": {
+        "grounding_accuracy": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 1
+        },
+        "citation_coverage": {
+          "mean": 1.0,
+          "confidence_interval": "(1.0, 1.0)",
+          "n": 1
+        },
+        "response_time": {
+          "mean": 22.864437103271484,
+          "confidence_interval": "(22.864437103271484, 22.864437103271484)",
+          "n": 1
+        }
+      }
+    },
+    "reliability_analysis": {
+      "success_rate": 1.0,
+      "failure_rate": 0.0,
+      "performance_consistency": {
+        "mean": 1.0,
+        "std_dev": 0.0,
+        "coefficient_of_variation": 0.0,
+        "min_score": 1.0,
+        "max_score": 1.0,
+        "range": 0.0
+      },
+      "response_time_consistency": {
+        "mean": 18.32635129292806,
+        "std_dev": 8.15878711539967,
+        "coefficient_of_variation": 0.44519429890815515,
+        "min_score": 4.97000527381897,
+        "max_score": 46.33775210380554,
+        "range": 41.36774682998657
+      }
+    },
+    "performance_distribution": {}
+  }
+}
