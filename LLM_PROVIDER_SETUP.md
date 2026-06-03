@@ -17,7 +17,7 @@ This happens when all LLM providers fail. Here are the solutions:
 
 Open `g:\RAGita\.env` and add:
 ```env
-OPENAI_API_KEY=sk-proj-your-actual-key-here
+OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxx
 OPENAI_MODEL=gpt-4o-mini
 ```
 
@@ -99,7 +99,7 @@ OPENAI_MODEL=gpt-4o-mini
 USE_GROQ=false
 
 # Keep existing GROQ config as backup
-GROQ_API_KEY=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
+GROQ_API_KEY=gsk_your_groq_key_here
 GROQ_MODEL=openai/gpt-oss-120b
 ```
 
