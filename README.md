@@ -67,11 +67,6 @@ Choose from 7 different response styles:
 
 ### Installation
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/ManishPingale7/BhagvatPuran.git
-cd BhagvatPuran
-```
 
 2. **Install dependencies**
 ```bash
@@ -409,13 +404,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact
-
-**Manish Pingale**
-- GitHub: [@ManishPingale7](https://github.com/ManishPingale7)
-- Project: [BhagvatPuran](https://github.com/ManishPingale7/BhagvatPuran)
-
----
 
 <div align="center">
 
