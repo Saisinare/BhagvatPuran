@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![RAGita Banner](https://img.shields.io/badge/RAGita-Bhagavad_Gita_AI-purple?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTUuMDkgOC4yNkwyMiA5LjI3TDE3IDEzLjk3TDE4LjE4IDIxTDEyIDE3LjI3TDUuODIgMjFMNyAxMy45N0wyIDkuMjdMOC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=)
+![BhagvatPuran Banner](https://img.shields.io/badge/BhagvatPuran-Bhagavad_Gita_AI-purple?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTUuMDkgOC4yNkwyMiA5LjI3TDE3IDEzLjk3TDE4LjE4IDIxTDEyIDE3LjI3TDUuODIgMjFMNyAxMy45N0wyIDkuMjdMOC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=)
 
 **Zero-Hallucination Question Answering System for the Bhagavad Gita**
 
@@ -18,7 +18,7 @@
 
 ## 📖 About
 
-**RAGita** is an advanced Retrieval-Augmented Generation (RAG) system that provides accurate, citation-backed answers to questions about the Bhagavad Gita. Built with a focus on **factual accuracy** and **zero hallucinations**, RAGita achieves **100% grounding accuracy** while maintaining semantic correctness.
+**BhagvatPuran** is an advanced Retrieval-Augmented Generation (RAG) system that provides accurate, citation-backed answers to questions about the Bhagavad Gita. Built with a focus on **factual accuracy** and **zero hallucinations**, BhagvatPuran achieves **100% grounding accuracy** while maintaining semantic correctness.
 
 ### 🎯 Key Achievements
 
@@ -69,8 +69,8 @@ Choose from 7 different response styles:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/ManishPingale7/RAGita.git
-cd RAGita
+git clone https://github.com/ManishPingale7/BhagvatPuran.git
+cd BhagvatPuran
 ```
 
 2. **Install dependencies**
@@ -92,12 +92,12 @@ echo OPENAI_API_KEY=your-key-here > .env
 python rebuild_enhanced_index.py
 ```
 
-### Running RAGita
+### Running BhagvatPuran
 
 #### Option 1: Full Stack (Recommended)
 ```bash
 # Windows
-start_ragita.bat
+start_BhagvatPuran.bat
 
 # This will:
 # - Start backend on http://localhost:8000
@@ -127,7 +127,7 @@ python -m http.server 8080
 ## 🏗️ Architecture
 
 ```
-RAGita Architecture
+BhagvatPuran Architecture
 ┌─────────────────────────────────────────────────────────┐
 │                     Frontend (HTML/JS)                  │
 │  ┌─────────────┐  ┌──────────────┐  ┌──────────────┐  │
@@ -243,7 +243,7 @@ Health check endpoint.
 
 ## 📊 Evaluation Metrics
 
-RAGita has been comprehensively evaluated on 30 diverse queries:
+BhagvatPuran has been comprehensively evaluated on 30 diverse queries:
 
 ### 🏆 **Grounding & Safety Metrics** (Most Important)
 | Metric | Score | Status |
@@ -269,7 +269,7 @@ RAGita has been comprehensively evaluated on 30 diverse queries:
 | Contextual Relevance | 0.631 | Good |
 
 ### 🎯 **Composite Score**
-- **RAGita Score**: 0.647 (Weighted composite)
+- **BhagvatPuran Score**: 0.647 (Weighted composite)
 - **Overall Score**: 0.989
 
 ---
@@ -323,7 +323,7 @@ python rebuild_enhanced_index.py
 ## 📚 Project Structure
 
 ```
-RAGita/
+BhagvatPuran/
 ├── backend/
 │   ├── main.py              # FastAPI application
 │   └── requirements.txt     # Backend dependencies
@@ -345,7 +345,7 @@ RAGita/
 │   ├── evaluator.py        # Evaluation framework
 │   ├── metrics.py          # Metric calculations
 │   └── comprehensive_test_data.py # Test dataset
-├── start_ragita.bat        # One-click launcher
+├── start_BhagvatPuran.bat        # One-click launcher
 ├── start_backend.bat       # Backend launcher
 ├── start_frontend.bat      # Frontend launcher
 └── requirements.txt        # Project dependencies
@@ -378,7 +378,7 @@ RAGita/
 - SIGIR, CIKM (Information Retrieval)
 - AAAI, IJCAI (AI conferences)
 
-**Positioning:** "RAGita: A Zero-Hallucination RAG System for Religious Text Question Answering"
+**Positioning:** "BhagvatPuran: A Zero-Hallucination RAG System for Religious Text Question Answering"
 
 ---
 
@@ -413,7 +413,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Manish Pingale**
 - GitHub: [@ManishPingale7](https://github.com/ManishPingale7)
-- Project: [RAGita](https://github.com/ManishPingale7/RAGita)
+- Project: [BhagvatPuran](https://github.com/ManishPingale7/BhagvatPuran)
 
 ---
 
