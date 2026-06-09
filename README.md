@@ -1,4 +1,4 @@
-# 🕉️ RAGita - Bhagavad Gita AI Assistant
+# 🕉️ BhagvatPuran - Bhagavad Gita AI Assistant
 
 <div align="center">
 
